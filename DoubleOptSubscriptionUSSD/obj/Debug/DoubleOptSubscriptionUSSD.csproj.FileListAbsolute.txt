@@ -1,0 +1,25 @@
+C:\Development\Projects\ExactMobile\USSDService\USSDService\bin\Debug\DoubleOptSubscriptionUSSD.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\bin\Debug\DoubleOptSubscriptionUSSD.pdb
+C:\Development\Projects\ExactMobile\USSDService\DoubleOptSubscriptionUSSD\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Projects\ExactMobile\USSDService\DoubleOptSubscriptionUSSD\obj\Debug\DoubleOptSubscriptionUSSD.dll
+C:\Development\Projects\ExactMobile\USSDService\DoubleOptSubscriptionUSSD\obj\Debug\DoubleOptSubscriptionUSSD.pdb
+H:\Development\Projects\Exactmobile\USSDService\USSDService\bin\Debug\DoubleOptSubscriptionUSSD.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDService\bin\Debug\DoubleOptSubscriptionUSSD.pdb
+H:\Development\Projects\Exactmobile\USSDService\DoubleOptSubscriptionUSSD\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\Projects\Exactmobile\USSDService\DoubleOptSubscriptionUSSD\obj\Debug\DoubleOptSubscriptionUSSD.dll
+H:\Development\Projects\Exactmobile\USSDService\DoubleOptSubscriptionUSSD\obj\Debug\DoubleOptSubscriptionUSSD.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\bin\Debug\DoubleOptSubscriptionUSSD.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\bin\Debug\DoubleOptSubscriptionUSSD.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\DoubleOptSubscriptionUSSD\obj\Debug\DoubleOptSubscriptionUSSD.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Projects\Exactmobile\USSDService\DoubleOptSubscriptionUSSD\obj\Debug\DoubleOptSubscriptionUSSD.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\DoubleOptSubscriptionUSSD\obj\Debug\DoubleOptSubscriptionUSSD.pdb
+C:\Development\Backups\Source code\USSDService\USSDService\bin\Debug\DoubleOptSubscriptionUSSD.dll
+C:\Development\Backups\Source code\USSDService\USSDService\bin\Debug\DoubleOptSubscriptionUSSD.pdb
+C:\Development\Backups\Source code\USSDService\DoubleOptSubscriptionUSSD\obj\Debug\DoubleOptSubscriptionUSSD.csprojResolveAssemblyReference.cache
+C:\Development\Backups\Source code\USSDService\DoubleOptSubscriptionUSSD\obj\Debug\DoubleOptSubscriptionUSSD.dll
+C:\Development\Backups\Source code\USSDService\DoubleOptSubscriptionUSSD\obj\Debug\DoubleOptSubscriptionUSSD.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\bin\Debug\DoubleOptSubscriptionUSSD.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\bin\Debug\DoubleOptSubscriptionUSSD.pdb
+C:\Development\Backups\Source code\USSDService - Copy\DoubleOptSubscriptionUSSD\obj\Debug\DoubleOptSubscriptionUSSD.csprojResolveAssemblyReference.cache
+C:\Development\Backups\Source code\USSDService - Copy\DoubleOptSubscriptionUSSD\obj\Debug\DoubleOptSubscriptionUSSD.dll
+C:\Development\Backups\Source code\USSDService - Copy\DoubleOptSubscriptionUSSD\obj\Debug\DoubleOptSubscriptionUSSD.pdb

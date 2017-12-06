@@ -1,0 +1,24 @@
+C:\Development\Projects\ExactMobile\USSDService\USSDService\bin\Release\SubscriptionUSSDProcessor.dll.config
+C:\Development\Projects\ExactMobile\USSDService\USSDService\bin\Release\SubscriptionUSSDProcessor.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\bin\Release\SubscriptionUSSDProcessor.pdb
+C:\Development\Projects\ExactMobile\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\ResolveAssemblyReference.cache
+C:\Development\Projects\ExactMobile\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.dll
+C:\Development\Projects\ExactMobile\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\bin\Release\SubscriptionUSSDProcessor.dll.config
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\bin\Release\SubscriptionUSSDProcessor.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\bin\Release\SubscriptionUSSDProcessor.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Projects\Exactmobile\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.pdb
+C:\Development\Backups\Source code\USSDService\USSDService\bin\Release\SubscriptionUSSDProcessor.dll.config
+C:\Development\Backups\Source code\USSDService\USSDService\bin\Release\SubscriptionUSSDProcessor.dll
+C:\Development\Backups\Source code\USSDService\USSDService\bin\Release\SubscriptionUSSDProcessor.pdb
+C:\Development\Backups\Source code\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Development\Backups\Source code\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.dll
+C:\Development\Backups\Source code\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\bin\Release\SubscriptionUSSDProcessor.dll.config
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\bin\Release\SubscriptionUSSDProcessor.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\bin\Release\SubscriptionUSSDProcessor.pdb
+C:\Development\Backups\Source code\USSDService - Copy\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Development\Backups\Source code\USSDService - Copy\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.dll
+C:\Development\Backups\Source code\USSDService - Copy\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.pdb

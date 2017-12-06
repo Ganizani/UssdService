@@ -1,0 +1,20 @@
+C:\Development\Projects\ExactMobile\USSDService\USSDService\bin\Release\CustomUSSDProcessor.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\bin\Release\CustomUSSDProcessor.pdb
+C:\Development\Projects\ExactMobile\USSDService\CustomUSSDProcessor\obj\Release\ResolveAssemblyReference.cache
+C:\Development\Projects\ExactMobile\USSDService\CustomUSSDProcessor\obj\Release\CustomUSSDProcessor.dll
+C:\Development\Projects\ExactMobile\USSDService\CustomUSSDProcessor\obj\Release\CustomUSSDProcessor.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\bin\Release\CustomUSSDProcessor.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\bin\Release\CustomUSSDProcessor.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\CustomUSSDProcessor\obj\Release\CustomUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Projects\Exactmobile\USSDService\CustomUSSDProcessor\obj\Release\CustomUSSDProcessor.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\CustomUSSDProcessor\obj\Release\CustomUSSDProcessor.pdb
+C:\Development\Backups\Source code\USSDService\USSDService\bin\Release\CustomUSSDProcessor.dll
+C:\Development\Backups\Source code\USSDService\USSDService\bin\Release\CustomUSSDProcessor.pdb
+C:\Development\Backups\Source code\USSDService\CustomUSSDProcessor\obj\Release\CustomUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Development\Backups\Source code\USSDService\CustomUSSDProcessor\obj\Release\CustomUSSDProcessor.dll
+C:\Development\Backups\Source code\USSDService\CustomUSSDProcessor\obj\Release\CustomUSSDProcessor.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\bin\Release\CustomUSSDProcessor.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\bin\Release\CustomUSSDProcessor.pdb
+C:\Development\Backups\Source code\USSDService - Copy\CustomUSSDProcessor\obj\Release\CustomUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Development\Backups\Source code\USSDService - Copy\CustomUSSDProcessor\obj\Release\CustomUSSDProcessor.dll
+C:\Development\Backups\Source code\USSDService - Copy\CustomUSSDProcessor\obj\Release\CustomUSSDProcessor.pdb

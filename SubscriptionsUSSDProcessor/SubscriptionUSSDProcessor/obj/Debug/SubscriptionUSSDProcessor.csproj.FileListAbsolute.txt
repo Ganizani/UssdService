@@ -1,0 +1,30 @@
+C:\Development\Projects\ExactMobile\USSDService\USSDService\bin\Debug\SubscriptionUSSDProcessor.dll.config
+C:\Development\Projects\ExactMobile\USSDService\USSDService\bin\Debug\SubscriptionUSSDProcessor.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\bin\Debug\SubscriptionUSSDProcessor.pdb
+C:\Development\Projects\ExactMobile\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Projects\ExactMobile\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.dll
+C:\Development\Projects\ExactMobile\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.pdb
+H:\Development\Projects\Exactmobile\USSDService\USSDService\bin\Debug\SubscriptionUSSDProcessor.dll.config
+H:\Development\Projects\Exactmobile\USSDService\USSDService\bin\Debug\SubscriptionUSSDProcessor.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDService\bin\Debug\SubscriptionUSSDProcessor.pdb
+H:\Development\Projects\Exactmobile\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\Projects\Exactmobile\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.dll
+H:\Development\Projects\Exactmobile\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\bin\Debug\SubscriptionUSSDProcessor.dll.config
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\bin\Debug\SubscriptionUSSDProcessor.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\bin\Debug\SubscriptionUSSDProcessor.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Projects\Exactmobile\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.pdb
+C:\Development\Backups\Source code\USSDService\USSDService\bin\Debug\SubscriptionUSSDProcessor.dll.config
+C:\Development\Backups\Source code\USSDService\USSDService\bin\Debug\SubscriptionUSSDProcessor.dll
+C:\Development\Backups\Source code\USSDService\USSDService\bin\Debug\SubscriptionUSSDProcessor.pdb
+C:\Development\Backups\Source code\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Development\Backups\Source code\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.dll
+C:\Development\Backups\Source code\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\bin\Debug\SubscriptionUSSDProcessor.dll.config
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\bin\Debug\SubscriptionUSSDProcessor.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\bin\Debug\SubscriptionUSSDProcessor.pdb
+C:\Development\Backups\Source code\USSDService - Copy\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Development\Backups\Source code\USSDService - Copy\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.dll
+C:\Development\Backups\Source code\USSDService - Copy\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.pdb

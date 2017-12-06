@@ -1,0 +1,25 @@
+C:\Development\Projects\ExactMobile\USSDService\USSDService\bin\Debug\CustomUSSDProcessor.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\bin\Debug\CustomUSSDProcessor.pdb
+C:\Development\Projects\ExactMobile\USSDService\CustomUSSDProcessor\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Projects\ExactMobile\USSDService\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.dll
+C:\Development\Projects\ExactMobile\USSDService\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.pdb
+H:\Development\Projects\Exactmobile\USSDService\USSDService\bin\Debug\CustomUSSDProcessor.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDService\bin\Debug\CustomUSSDProcessor.pdb
+H:\Development\Projects\Exactmobile\USSDService\CustomUSSDProcessor\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\Projects\Exactmobile\USSDService\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.dll
+H:\Development\Projects\Exactmobile\USSDService\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\bin\Debug\CustomUSSDProcessor.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\bin\Debug\CustomUSSDProcessor.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Projects\Exactmobile\USSDService\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.pdb
+C:\Development\Backups\Source code\USSDService\USSDService\bin\Debug\CustomUSSDProcessor.dll
+C:\Development\Backups\Source code\USSDService\USSDService\bin\Debug\CustomUSSDProcessor.pdb
+C:\Development\Backups\Source code\USSDService\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Development\Backups\Source code\USSDService\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.dll
+C:\Development\Backups\Source code\USSDService\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\bin\Debug\CustomUSSDProcessor.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\bin\Debug\CustomUSSDProcessor.pdb
+C:\Development\Backups\Source code\USSDService - Copy\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Development\Backups\Source code\USSDService - Copy\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.dll
+C:\Development\Backups\Source code\USSDService - Copy\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.pdb

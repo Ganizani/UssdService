@@ -1,0 +1,24 @@
+C:\Development\Projects\Projects\Exactmobile\USSDService\bin\Debug\MutuelSmartUSSDProcessor.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\bin\Debug\MutuelSmartUSSDProcessor.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\bin\MutuelSmartUSSDProcessor.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\bin\MutuelSmartUSSDProcessor.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\bin\Debug\MutuelSmartUSSDProcessor.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\bin\Debug\MutuelSmartUSSDProcessor.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\MutuelSmartUSSDProcessor\obj\Debug\MutuelSmartUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Projects\Exactmobile\USSDService\MutuelSmartUSSDProcessor\obj\Debug\MutuelSmartUSSDProcessor.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\MutuelSmartUSSDProcessor\obj\Debug\MutuelSmartUSSDProcessor.pdb
+C:\Development\Backups\Source code\USSDService\USSDService\bin\Debug\MutuelSmartUSSDProcessor.dll
+C:\Development\Backups\Source code\USSDService\USSDService\bin\Debug\MutuelSmartUSSDProcessor.pdb
+C:\Development\Backups\Source code\USSDService\MutuelSmartUSSDProcessor\obj\Debug\MutuelSmartUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Development\Backups\Source code\USSDService\MutuelSmartUSSDProcessor\obj\Debug\MutuelSmartUSSDProcessor.dll
+C:\Development\Backups\Source code\USSDService\MutuelSmartUSSDProcessor\obj\Debug\MutuelSmartUSSDProcessor.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\bin\Debug\MutuelSmartUSSDProcessor.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\bin\Debug\MutuelSmartUSSDProcessor.pdb
+C:\Development\Backups\Source code\USSDService - Copy\MutuelSmartUSSDProcessor\obj\Debug\MutuelSmartUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Development\Backups\Source code\USSDService - Copy\MutuelSmartUSSDProcessor\obj\Debug\MutuelSmartUSSDProcessor.dll
+C:\Development\Backups\Source code\USSDService - Copy\MutuelSmartUSSDProcessor\obj\Debug\MutuelSmartUSSDProcessor.pdb
+C:\Development\Projects\Github\USSDService\USSDService\bin\Debug\MutuelSmartUSSDProcessor.dll
+C:\Development\Projects\Github\USSDService\USSDService\bin\Debug\MutuelSmartUSSDProcessor.pdb
+C:\Development\Projects\Github\USSDService\MutuelSmartUSSDProcessor\obj\Debug\MutuelSmartUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Github\USSDService\MutuelSmartUSSDProcessor\obj\Debug\MutuelSmartUSSDProcessor.dll
+C:\Development\Projects\Github\USSDService\MutuelSmartUSSDProcessor\obj\Debug\MutuelSmartUSSDProcessor.pdb
