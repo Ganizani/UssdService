@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{83E6C392-C5BB-4F3C-BDBB-EC2E829D8466}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>exactmobile.ussdservice</RootNamespace>
+    <AssemblyName>exactmobile.ussdservice</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>USSDService</SccProjectName>
+    <SccLocalPath>4~ba546b4d-592d-4760-9ea4-7ebd9cd49559</SccLocalPath>
+    <SccAuxPath>http://sourcevault.exactdev.co.za/VaultService</SccAuxPath>
+    <SccProvider>SourceGear Vault Visual Studio 2005 Client:{1EA47954-8515-402d-82D9-B5C332120A8D}</SccProvider>
+    <StartupObject>exactmobile.ussdservice.USSDWindowService</StartupObject>
+    <PublishUrl>http://localhost/exactmobile.ussdservice/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ChilkatDotNet2, Version=9.1.2.0, Culture=neutral, PublicKeyToken=eb5fc1fc52ef09bd, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Assemblies\3rdParty\ChilkatDotNet2.dll</HintPath>
+    </Reference>
+    <Reference Include="ExactCommon, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Assemblies\Legacy\ExactCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="exactLogging, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Global References\exactLogging.dll</HintPath>
+    </Reference>
+    <Reference Include="Exactmobile.Integration.Tellus, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Assemblies\Internal\Exactmobile.Integration.Tellus.dll</HintPath>
+    </Reference>
+    <Reference Include="MessageQueueWrapper, Version=1.0.4078.19108, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Assemblies\Internal\MessageQueueWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Assemblies\Legacy\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Assemblies\Legacy\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="configuration\ApplicationSettingSectionConfiguration.cs" />
+    <Compile Include="configuration\http\USSDHttpListenerConfiguration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="configuration\http\USSDHttpListenerConfigurationCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="configuration\http\USSDHttpListenerConfigurationSection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="configuration\USSDListenerConfigurationCollection.cs" />
+    <Compile Include="configuration\USSDListenerConfigurationSection.cs" />
+    <Compile Include="configuration\USSDListenerConfiguration.cs" />
+    <Compile Include="configuration\exceptions\USSDTcpReceiveTimeoutException.cs" />
+    <Compile Include="configuration\exceptions\USSDTcpSendTimeoutException.cs" />
+    <Compile Include="configuration\exceptions\USSDUnknownCampaignForNumberException.cs" />
+    <Compile Include="handlers\BaseUSSDHandler.cs" />
+    <Compile Include="configuration\tcp\USSDTcpListenerConfiguration.cs" />
+    <Compile Include="configuration\tcp\USSDTcpListenerConfigurationCollection.cs" />
+    <Compile Include="configuration\exceptions\USSDTcpListenerSectionMissingException.cs" />
+    <Compile Include="handlers\cellc\CellCResponse.cs">
+    </Compile>
+    <Compile Include="handlers\cellc\CellCUSSDPostHandler.cs" />
+    <Compile Include="handlers\cellc\CellCUSSDHandler.cs" />
+    <Compile Include="handlers\cellc\CellCUSSDGetHandler.cs" />
+    <Compile Include="handlers\vodacom\VodacomResponse.cs" />
+    <Compile Include="handlers\vodacom\VodacomCUSSDGetHandler.cs" />
+    <Compile Include="handlers\vodacom\VodacomCUSSDHandler.cs" />
+    <Compile Include="handlers\vodacom\VodacomCUSSDPostHandler.cs" />
+    <Compile Include="http\USSDHttpListener.cs" />
+    <Compile Include="ProjectInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProjectInstaller.Designer.cs">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tcp\TCPSubmitter.cs" />
+    <Compile Include="tcp\mtn\MtnUSSDTCPPDU.cs" />
+    <Compile Include="tcp\TCPSender.cs" />
+    <Compile Include="tcp\mtn\MtnUSSDTCPListener.cs" />
+    <Compile Include="tcp\TCPReceiver.cs" />
+    <Compile Include="tcp\USSDTcpListenerManager.cs" />
+    <Compile Include="tcp\USSDTCPListener.cs" />
+    <Compile Include="configuration\exceptions\USSDHttpListenerException.cs" />
+    <Compile Include="configuration\exceptions\USSDHandlerConfigurationException.cs" />
+    <Compile Include="handlers\USSDHandlerFactory.cs" />
+    <Compile Include="configuration\exceptions\USSDHandlerFactoryRegistrationException.cs" />
+    <Compile Include="configuration\exceptions\USSDHandlerFactoryUnknownHandlerException.cs" />
+    <Compile Include="http\USSDHttpListenerManager.cs" />
+    <Compile Include="USSDManager.cs" />
+    <Compile Include="configuration\tcp\USSDTcpListenerConfigurationSection.cs" />
+    <Compile Include="handlers\mtn\MtnUSSDHandler.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="USSDWindowService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="USSDWindowService.Designer.cs">
+      <DependentUpon>USSDWindowService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="xsd\vodacom\VodacomRequest.cs">
+      <DependentUpon>VodacomRequest.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="xsd\vodacom\VodacomRequest.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VodacomRequest.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="xsd\vodacom\VodacomRequest.xsc">
+      <DependentUpon>VodacomRequest.xsd</DependentUpon>
+    </None>
+    <None Include="xsd\vodacom\VodacomRequest.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VodacomRequest.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="xsd\vodacom\VodacomRequest.xss">
+      <DependentUpon>VodacomRequest.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="xsd\cellc\CellCRequest.xml" />
+    <Content Include="xsd\cellc\CellCResponse.xml" />
+    <None Include="App.config" />
+    <None Include="xsd\mtn\MtnLoginResponsePDU.dtd" />
+    <None Include="xsd\mtn\MtnLoginRequestPDU.dtd" />
+    <Content Include="xsd\mtn\MtnLoginResponsePDU.xml" />
+    <Content Include="xsd\mtn\MtnLoginRequestPDU.xml" />
+    <Content Include="xsd\vodacom\VodacomRequest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\USSDCommon\USSDCommon.csproj">
+      <Project>{D38714F6-166E-491F-BA02-9B3ADF93AAEF}</Project>
+      <Name>USSDCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ProjectInstaller.resx">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

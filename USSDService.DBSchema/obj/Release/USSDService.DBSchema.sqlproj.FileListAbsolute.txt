@@ -1,0 +1,24 @@
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService.DBSchema\bin\Release\USSDService.DBSchema.dacpac
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService.DBSchema\bin\Release\USSDService.DBSchema.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService.DBSchema\bin\Release\USSDService.DBSchema.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService.DBSchema\obj\Release\Model.xml
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService.DBSchema\obj\Release\refactor.xml
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService.DBSchema\obj\Release\postdeploy.sql
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService.DBSchema\obj\Release\predeploy.sql
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService.DBSchema\obj\Release\USSDService.DBSchema.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService.DBSchema\obj\Release\USSDService.DBSchema.pdb
+C:\Development\Backups\Source code\USSDService\USSDService.DBSchema\bin\Release\USSDService.DBSchema.dacpac
+C:\Development\Backups\Source code\USSDService\USSDService.DBSchema\bin\Release\USSDService.DBSchema.dll
+C:\Development\Backups\Source code\USSDService\USSDService.DBSchema\bin\Release\USSDService.DBSchema.pdb
+C:\Development\Backups\Source code\USSDService\USSDService.DBSchema\obj\Release\USSDService.DBSchema.dll
+C:\Development\Backups\Source code\USSDService\USSDService.DBSchema\obj\Release\USSDService.DBSchema.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDService.DBSchema\bin\Release\USSDService.DBSchema.dacpac
+C:\Development\Backups\Source code\USSDService - Copy\USSDService.DBSchema\bin\Release\USSDService.DBSchema.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService.DBSchema\bin\Release\USSDService.DBSchema.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDService.DBSchema\obj\Release\USSDService.DBSchema.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService.DBSchema\obj\Release\USSDService.DBSchema.pdb
+C:\Development\Projects\Github\USSDService\USSDService.DBSchema\bin\Release\USSDService.DBSchema.dacpac
+C:\Development\Projects\Github\USSDService\USSDService.DBSchema\bin\Release\USSDService.DBSchema.dll
+C:\Development\Projects\Github\USSDService\USSDService.DBSchema\bin\Release\USSDService.DBSchema.pdb
+C:\Development\Projects\Github\USSDService\USSDService.DBSchema\obj\Release\USSDService.DBSchema.dll
+C:\Development\Projects\Github\USSDService\USSDService.DBSchema\obj\Release\USSDService.DBSchema.pdb

@@ -1,0 +1,10 @@
+8/27/2017 10:21:23 AM	This log contains information about the import schema operation into project 'USSDService.DBSchema' on computer 'BIGJOE' by user 'joe28778'.
+8/27/2017 10:21:24 AM	Deserializing model
+8/27/2017 10:21:24 AM	Resolving model
+8/27/2017 10:21:25 AM	Visiting imported model for types
+8/27/2017 10:21:25 AM	Scanning project for duplicate elements
+8/27/2017 10:21:25 AM	Finished duplicate element processing
+8/27/2017 10:21:27 AM	Processing extra files
+8/27/2017 10:21:27 AM	Finished importing Data-tier Application file.
+8/27/2017 10:21:27 AM	A summary of the import was saved to the following location: C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService.DBSchema\Import Schema Logs\USSDService.DBSchema_20170827082123.log
+8/27/2017 10:21:27 AM	Click Finish to continue...

@@ -1,0 +1,190 @@
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\XMLRPCTest.exe
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\XMLRPCTest.pdb
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\AgileSolutionUSSDProcessor.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\exactmobile.ussdcommon.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\Org.Mentalis.Security.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\CUtility.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\ExactCommon.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\CDevice.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\CXMLCapsule.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\CUser.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\VodacomRAB.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\exactLogging.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\CookComputing.XmlRpcV2.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\CDB.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\CPaymentSystem.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\CHandsetModel.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\ExactPaymentWrapper.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\CQueueWrapper.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\iVeri.EnterpriseSC.dll
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\ExactCommon.pdb
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\exactmobile.ussdcommon.pdb
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\exactLogging.pdb
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\AgileSolutionUSSDProcessor.pdb
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\obj\Debug\XMLRPCTest.exe
+C:\Development\Projects\ExactMobile\USSDService\XMLRPCTest\obj\Debug\XMLRPCTest.pdb
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\XMLRPCTest.exe
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\XMLRPCTest.pdb
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\AgileSolutionUSSDProcessor.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\exactmobile.ussdcommon.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\Org.Mentalis.Security.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\CUtility.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\ExactCommon.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Web.Services2.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\CDevice.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\CXMLCapsule.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\CUser.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\VodacomRAB.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\exactLogging.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\CookComputing.XmlRpcV2.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\CDB.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\CPaymentSystem.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\CHandsetModel.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.Unity.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\ExactPaymentWrapper.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\CQueueWrapper.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\iVeri.EnterpriseSC.dll
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\ExactCommon.pdb
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\exactmobile.ussdcommon.pdb
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\exactLogging.pdb
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\AgileSolutionUSSDProcessor.pdb
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\obj\Debug\XMLRPCTest.exe
+H:\Development\Projects\Exactmobile\USSDService\XMLRPCTest\obj\Debug\XMLRPCTest.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\XMLRPCTest.exe.config
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\XMLRPCTest.exe
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\XMLRPCTest.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\AgileSolutionUSSDProcessor.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\exactmobile.ussdcommon.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\CookComputing.XmlRpcV2.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\CPaymentSystem.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\CDB.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\CQueueWrapper.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\CXMLCapsule.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\USSD.Entities.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\ExactPaymentWrapper.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\ExactCommon.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\CUtility.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\USSD.BLL.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\exactLogging.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\MBDInternal.Data.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\NLog.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\USSD.DAL.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\MBDInternal.Utils.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\AgileSolutionUSSDProcessor.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\exactmobile.ussdcommon.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\USSD.Entities.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\USSD.BLL.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\NLog.xml
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\USSD.DAL.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\obj\Debug\XMLRPCTest.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\obj\Debug\XMLRPCTest.exe
+C:\Development\Projects\Projects\Exactmobile\USSDService\XMLRPCTest\obj\Debug\XMLRPCTest.pdb
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\XMLRPCTest.exe.config
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\XMLRPCTest.exe
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\XMLRPCTest.pdb
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\exactmobile.ussdcommon.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\CPaymentSystem.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\CDB.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\CQueueWrapper.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\CXMLCapsule.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\USSD.Entities.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\ExactPaymentWrapper.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\ExactCommon.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\CUtility.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\Newtonsoft.Json.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\USSD.BLL.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\exactLogging.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\Microsoft.Web.Services2.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\VodacomRAB.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\Org.Mentalis.Security.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\CDevice.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\iVeri.EnterpriseSC.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\MBDInternal.Data.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\CUser.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\NLog.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\USSD.DAL.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\CHandsetModel.dll
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\exactmobile.ussdcommon.pdb
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\USSD.Entities.pdb
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\ExactCommon.pdb
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\USSD.BLL.pdb
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\exactLogging.pdb
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\NLog.xml
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\USSD.DAL.pdb
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\obj\Debug\XMLRPCTest.csprojResolveAssemblyReference.cache
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\obj\Debug\XMLRPCTest.exe
+C:\Development\Backups\Source code\USSDService\XMLRPCTest\obj\Debug\XMLRPCTest.pdb
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\XMLRPCTest.exe.config
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\XMLRPCTest.exe
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\XMLRPCTest.pdb
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\exactmobile.ussdcommon.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\CPaymentSystem.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\CDB.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\CQueueWrapper.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\CXMLCapsule.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\USSD.Entities.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\ExactPaymentWrapper.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\ExactCommon.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\CUtility.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\Newtonsoft.Json.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\USSD.BLL.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\exactLogging.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\Microsoft.Web.Services2.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\VodacomRAB.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\Org.Mentalis.Security.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\CDevice.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\iVeri.EnterpriseSC.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\MBDInternal.Data.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\CUser.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\NLog.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\USSD.DAL.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\CHandsetModel.dll
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\exactmobile.ussdcommon.pdb
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\USSD.Entities.pdb
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\ExactCommon.pdb
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\USSD.BLL.pdb
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\exactLogging.pdb
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\NLog.xml
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\USSD.DAL.pdb
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\obj\Debug\XMLRPCTest.csprojResolveAssemblyReference.cache
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\obj\Debug\XMLRPCTest.exe
+C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\obj\Debug\XMLRPCTest.pdb

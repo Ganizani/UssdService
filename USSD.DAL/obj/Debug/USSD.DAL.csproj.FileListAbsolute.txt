@@ -1,0 +1,32 @@
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\bin\Debug\USSD.DAL.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\bin\Debug\USSD.DAL.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\bin\Debug\MBDInternal.Config.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\bin\Debug\MBDInternal.Config.Entities.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\bin\Debug\MBDInternal.ConfigServer.Contract.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\bin\Debug\MBDInternal.Data.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\bin\Debug\NLog.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\bin\Debug\MBDInternal.Utils.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\bin\Debug\NLog.xml
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\obj\Debug\USSD.DAL.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\obj\Debug\USSD.DAL.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\obj\Debug\USSD.DAL.pdb
+C:\Development\Backups\Source code\USSDService\USSD.DAL\bin\Debug\USSD.DAL.dll
+C:\Development\Backups\Source code\USSDService\USSD.DAL\bin\Debug\USSD.DAL.pdb
+C:\Development\Backups\Source code\USSDService\USSD.DAL\bin\Debug\NLog.dll
+C:\Development\Backups\Source code\USSDService\USSD.DAL\bin\Debug\NLog.xml
+C:\Development\Backups\Source code\USSDService\USSD.DAL\obj\Debug\USSD.DAL.dll
+C:\Development\Backups\Source code\USSDService\USSD.DAL\obj\Debug\USSD.DAL.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSD.DAL\bin\Debug\USSD.DAL.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSD.DAL\bin\Debug\USSD.DAL.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSD.DAL\bin\Debug\NLog.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSD.DAL\bin\Debug\NLog.xml
+C:\Development\Backups\Source code\USSDService - Copy\USSD.DAL\obj\Debug\USSD.DAL.csprojResolveAssemblyReference.cache
+C:\Development\Backups\Source code\USSDService - Copy\USSD.DAL\obj\Debug\USSD.DAL.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSD.DAL\obj\Debug\USSD.DAL.pdb
+C:\Development\Projects\Github\USSDService\USSD.DAL\bin\Debug\USSD.DAL.dll
+C:\Development\Projects\Github\USSDService\USSD.DAL\bin\Debug\USSD.DAL.pdb
+C:\Development\Projects\Github\USSDService\USSD.DAL\bin\Debug\NLog.dll
+C:\Development\Projects\Github\USSDService\USSD.DAL\bin\Debug\NLog.xml
+C:\Development\Projects\Github\USSDService\USSD.DAL\obj\Debug\USSD.DAL.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Github\USSDService\USSD.DAL\obj\Debug\USSD.DAL.dll
+C:\Development\Projects\Github\USSDService\USSD.DAL\obj\Debug\USSD.DAL.pdb

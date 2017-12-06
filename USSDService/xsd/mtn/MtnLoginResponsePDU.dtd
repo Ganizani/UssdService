@@ -1,0 +1,4 @@
+﻿<!ELEMENT cookie EMPTY>
+<!ATTLIST cookie
+VALUE CDATA #REQUIRED
+>

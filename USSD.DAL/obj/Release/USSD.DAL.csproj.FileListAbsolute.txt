@@ -1,0 +1,26 @@
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\bin\Release\USSD.DAL.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\bin\Release\USSD.DAL.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\bin\Release\MBDInternal.Config.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\bin\Release\MBDInternal.Config.Entities.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\bin\Release\MBDInternal.ConfigServer.Contract.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\bin\Release\MBDInternal.Data.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\bin\Release\NLog.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\bin\Release\MBDInternal.Utils.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\bin\Release\NLog.xml
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\obj\Release\USSD.DAL.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\obj\Release\USSD.DAL.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSD.DAL\obj\Release\USSD.DAL.pdb
+C:\Development\Backups\Source code\USSDService\USSD.DAL\bin\Release\USSD.DAL.dll
+C:\Development\Backups\Source code\USSDService\USSD.DAL\bin\Release\USSD.DAL.pdb
+C:\Development\Backups\Source code\USSDService\USSD.DAL\bin\Release\NLog.dll
+C:\Development\Backups\Source code\USSDService\USSD.DAL\bin\Release\MBDInternal.Utils.dll
+C:\Development\Backups\Source code\USSDService\USSD.DAL\bin\Release\NLog.xml
+C:\Development\Backups\Source code\USSDService\USSD.DAL\obj\Release\USSD.DAL.csprojResolveAssemblyReference.cache
+C:\Development\Backups\Source code\USSDService\USSD.DAL\obj\Release\USSD.DAL.dll
+C:\Development\Backups\Source code\USSDService\USSD.DAL\obj\Release\USSD.DAL.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSD.DAL\bin\Release\USSD.DAL.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSD.DAL\bin\Release\USSD.DAL.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSD.DAL\bin\Release\NLog.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSD.DAL\bin\Release\NLog.xml
+C:\Development\Backups\Source code\USSDService - Copy\USSD.DAL\obj\Release\USSD.DAL.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSD.DAL\obj\Release\USSD.DAL.pdb

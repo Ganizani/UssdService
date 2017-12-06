@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<login USER="TEST"
+PASSWORD="test"
+RMT_SYS="ussdap_ge0@geuss4"
+NODE_ID="testapp01"
+COOKIE="ussdgw"
+/>

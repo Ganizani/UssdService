@@ -1,0 +1,4842 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSchemaModel FileFormatVersion="1.2" SchemaVersion="2.9" DspName="Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider" CollationLcid="1033" CollationCaseSensitive="False" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+	<Header>
+		<CustomData Category="AnsiNulls">
+			<Metadata Name="AnsiNulls" Value="True" />
+		</CustomData>
+		<CustomData Category="QuotedIdentifier">
+			<Metadata Name="QuotedIdentifier" Value="True" />
+		</CustomData>
+		<CustomData Category="CompatibilityMode">
+			<Metadata Name="CompatibilityMode" Value="130" />
+		</CustomData>
+		<CustomData Category="Reference" Type="Assembly">
+			<Metadata Name="LogicalName" Value="USSDService.DBSchema.dll" />
+			<Metadata Name="FileName" Value="C:\DEVELOPMENT\BACKUPS\SOURCE CODE\USSDSERVICE\USSDSERVICE.DBSCHEMA\OBJ\DEBUG\USSDSERVICE.DBSCHEMA.DLL" />
+			<Metadata Name="AssemblyName" Value="USSDService.DBSchema" />
+			<Metadata Name="PermissionSet" Value="SAFE" />
+			<Metadata Name="Owner" Value="" />
+			<Metadata Name="GenerateSqlClrDdl" Value="True" />
+			<Metadata Name="IsVisible" Value="True" />
+			<Metadata Name="IsModelAware" Value="True" />
+			<Metadata Name="SkipCreationIfEmpty" Value="True" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Development\Backups\Source code\USSDService\USSDService.DBSchema\obj\Debug\USSDService.DBSchema.pdb" />
+		</CustomData>
+		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
+	</Header>
+	<Model>
+		<Element Type="SqlDatabaseOptions">
+			<Property Name="Collation" Value="SQL_Latin1_General_CP1_CI_AS" />
+			<Property Name="IsAnsiNullDefaultOn" Value="True" />
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Property Name="IsAnsiWarningsOn" Value="True" />
+			<Property Name="IsArithAbortOn" Value="True" />
+			<Property Name="IsConcatNullYieldsNullOn" Value="True" />
+			<Property Name="IsTornPageProtectionOn" Value="False" />
+			<Property Name="IsFullTextEnabled" Value="True" />
+			<Property Name="PageVerifyMode" Value="3" />
+			<Property Name="DefaultLanguage" Value="" />
+			<Property Name="DefaultFullTextLanguage" Value="" />
+			<Property Name="QueryStoreStaleQueryThreshold" Value="367" />
+			<Relationship Name="DefaultFilegroup">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[PRIMARY]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlDefaultConstraint">
+			<Property Name="DefaultExpressionScript">
+				<Value><![CDATA[((0))]]></Value>
+			</Property>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForColumn">
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[WaitForHTTPResponse]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="3" />
+		</Element>
+		<Element Type="SqlDefaultConstraint">
+			<Property Name="DefaultExpressionScript">
+				<Value><![CDATA[((0))]]></Value>
+			</Property>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForColumn">
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[IsBillable]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="4" />
+		</Element>
+		<Element Type="SqlDefaultConstraint">
+			<Property Name="DefaultExpressionScript">
+				<Value><![CDATA[((0))]]></Value>
+			</Property>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForColumn">
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[SendHTTPResponseBySMS]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="5" />
+		</Element>
+		<Element Type="SqlDefaultConstraint">
+			<Property Name="DefaultExpressionScript">
+				<Value><![CDATA[((0))]]></Value>
+			</Property>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[USSDMenus]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForColumn">
+				<Entry>
+					<References Name="[dbo].[USSDMenus].[ParentMenuId]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="6" />
+		</Element>
+		<Element Type="SqlDefaultConstraint">
+			<Property Name="DefaultExpressionScript">
+				<Value><![CDATA[((0))]]></Value>
+			</Property>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[USSDMenus]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForColumn">
+				<Entry>
+					<References Name="[dbo].[USSDMenus].[ReturnMenuId]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="7" />
+		</Element>
+		<Element Type="SqlDefaultConstraint">
+			<Property Name="DefaultExpressionScript">
+				<Value><![CDATA[((0))]]></Value>
+			</Property>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[USSDMenus]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForColumn">
+				<Entry>
+					<References Name="[dbo].[USSDMenus].[ShowBack]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="8" />
+		</Element>
+		<Element Type="SqlDefaultConstraint">
+			<Property Name="DefaultExpressionScript">
+				<Value><![CDATA[((0))]]></Value>
+			</Property>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[USSDMenus]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForColumn">
+				<Entry>
+					<References Name="[dbo].[USSDMenus].[OrderNumber]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="9" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[MobileNetworks].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[MobileNetworks]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="10" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[UssdNumbers].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[UssdNumbers]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="11" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[CommunicationTypes].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[CommunicationTypes]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="12" />
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[CommunicationTypes]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[CommunicationTypes].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[CommunicationTypes].[CommunicationText]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="100" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<AttachedAnnotation Disambiguator="12" />
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[FetchHTTPTransaction]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+
+BEGIN
+
+	Select top 1
+	 [T].Id
+	,[T].USSDCampaignId
+	,[T].USSDTransactionId
+	,[T].MenuId
+	,[T].MobileNumber
+	,[T].ResolveURL
+	,[T].ClientReference
+	,[T].ClientMessage
+	,[T].ClientWebResponse
+	,[T].CreatedDate
+	,[T].CreatedByUserId
+	,[C].[Description] [CampaignName]
+	,[M].Name [MenuName]
+
+	
+	From [dbo].[HTTPTransactions] T
+	inner join [dbo].[USSDCampaigns] C on T.USSDCampaignId = C.Id	
+	inner join [dbo].[USSDTransactions] UT on T.USSDTransactionId = UT.Id
+	inner join [dbo].[USSDMenus] M on T.MenuId = M.Id	
+
+	Where 
+			[T].[Id] = @Id
+
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[USSDTransactionId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDMenus]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[MenuId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDMenus].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[USSDTransactionId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[MobileNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[ResolveURL]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[ClientReference]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[ClientMessage]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[ClientWebResponse]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[CreatedDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[CreatedByUserId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Description]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDMenus].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FetchHTTPTransaction].[@Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[FetchHTTPTransaction].[@Id]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="636" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[FetchHTTPTransaction]&#xD;&#xA;&#x9;&#x9; @Id int&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[FetchMenuTransaction]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+Begin
+	Select top 1
+		 Id
+		,USSDMenuId
+		,USSDCampaignId
+		,USSDTransactionId
+		,MobileNetworkID
+		,MobileNumber
+		,EnteredSelectionValue
+		,MenuSection
+		,CreateDate
+	From [dbo].[MenuTransactions]
+    Where [Id] = @Id
+
+End]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[MenuTransactions]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[USSDMenuId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[USSDTransactionId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[MobileNetworkID]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[MobileNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[EnteredSelectionValue]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[MenuSection]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[CreateDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FetchMenuTransaction].[@Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[FetchMenuTransaction].[@Id]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="CreateOffset" Value="2" />
+				<Property Name="Length" Value="315" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="&#xD;&#xA;CREATE PROCEDURE [dbo].[FetchMenuTransaction]&#xD;&#xA;&#x9;(&#xD;&#xA;&#x9;&#x9; @Id Bigint &#xD;&#xA;&#x9;)&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[FetchUSSDCampaign]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+Begin
+
+	SELECT top 1 
+	 C.[Id]                   
+    ,C.[Name]                 
+    ,C.[Description]          
+    ,C.[ProcessorType]        
+    ,C.[CampaignStartDate]    
+    ,C.[CampaignEndDate]      
+    ,C.[CreatedDate]          
+    ,C.[CreatedByUserId]      
+    ,C.[USSDNumberId]         
+    ,C.[BackButton]           
+    ,C.[CommunicationTypeId]  
+    ,C.[WaitForHTTPResponse]  
+    ,C.[IsBillable]           
+    ,C.[BillAmount]           
+    ,C.[SendHTTPResponseBySMS]
+	,N.Number
+
+ FROM [dbo].[USSDCampaigns] C
+   inner join [dbo].[UssdNumbers] N On C.USSDNumberId = N.Id
+ where 
+	C.[Id] = @Id
+
+ End]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UssdNumbers]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[USSDNumberId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UssdNumbers].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Description]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[ProcessorType]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[CampaignStartDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[CampaignEndDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[CreatedDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[CreatedByUserId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[BackButton]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[CommunicationTypeId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[WaitForHTTPResponse]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[IsBillable]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[BillAmount]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[SendHTTPResponseBySMS]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UssdNumbers].[Number]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FetchUSSDCampaign].[@Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[FetchUSSDCampaign].[@Id]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[0]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="704" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[FetchUSSDCampaign]&#xD;&#xA;&#x9;@Id int = 0&#xD;&#xA;&#x9;&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[FetchUSSDTransaction]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+
+BEGIN
+
+	Select 
+	 [T].[Id]
+	,[T].[USSDCampaignId]	
+	,[T].[Message]			
+	,[T].[MobileNumber]		
+	,[T].[CreatedDate]		
+	,[T].[CreatedByUserId]	
+	,[T].[USSDNumberId]		
+	,[T].[SessionGuid]		
+	,[T].[MobileNetworkId]
+	,[C].[Description] [CampaignName]
+	,[N].[Number]
+	,[MN].MobileNetworkName [MobileNetwork]
+
+	
+	From [dbo].[USSDTransactions] T
+	inner join [dbo].[USSDCampaigns] C on T.USSDCampaignId = C.Id	
+	inner join [dbo].[UssdNumbers] N on T.USSDNumberId = N.Id
+	inner join [dbo].[MobileNetworks] MN on T.MobileNetworkId = MN.Id	
+
+	Where [T].[Id] = @Id
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[USSDTransactions]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UssdNumbers]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[USSDNumberId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UssdNumbers].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MobileNetworks]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[MobileNetworkId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MobileNetworks].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[Message]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[MobileNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[CreatedDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[CreatedByUserId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[USSDNumberId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[SessionGuid]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Description]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UssdNumbers].[Number]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MobileNetworks].[MobileNetworkName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FetchUSSDTransaction].[@Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[FetchUSSDTransaction].[@Id]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="643" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[FetchUSSDTransaction]&#xD;&#xA;&#x9;@Id Bigint &#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_HTTPTransactions_MenuId]">
+			<Relationship Name="Columns">
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[MenuId]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignColumns">
+				<Entry>
+					<References Name="[dbo].[USSDMenus].[Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignTable">
+				<Entry>
+					<References Name="[dbo].[USSDMenus]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="13" />
+		</Element>
+		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_HTTPTransactions_USSDCampaignId]">
+			<Relationship Name="Columns">
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[USSDCampaignId]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignColumns">
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignTable">
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="14" />
+		</Element>
+		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_HTTPTransactions_USSDTransactionId]">
+			<Relationship Name="Columns">
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[USSDTransactionId]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignColumns">
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignTable">
+				<Entry>
+					<References Name="[dbo].[USSDTransactions]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="15" />
+		</Element>
+		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_MenuTransactions_MobileNetworkID]">
+			<Relationship Name="Columns">
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[MobileNetworkID]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[MenuTransactions]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignColumns">
+				<Entry>
+					<References Name="[dbo].[MobileNetworks].[Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignTable">
+				<Entry>
+					<References Name="[dbo].[MobileNetworks]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="16" />
+		</Element>
+		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_MenuTransactions_USSDCampaignId]">
+			<Relationship Name="Columns">
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[USSDCampaignId]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[MenuTransactions]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignColumns">
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignTable">
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="17" />
+		</Element>
+		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_MenuTransactions_USSDMenuId]">
+			<Relationship Name="Columns">
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[USSDMenuId]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[MenuTransactions]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignColumns">
+				<Entry>
+					<References Name="[dbo].[USSDMenus].[Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignTable">
+				<Entry>
+					<References Name="[dbo].[USSDMenus]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="18" />
+		</Element>
+		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_MenuTransactions_USSDTransactionId]">
+			<Relationship Name="Columns">
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[USSDTransactionId]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[MenuTransactions]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignColumns">
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignTable">
+				<Entry>
+					<References Name="[dbo].[USSDTransactions]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="19" />
+		</Element>
+		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_USSDCampaigns_CommunicationTypeId]">
+			<Relationship Name="Columns">
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[CommunicationTypeId]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignColumns">
+				<Entry>
+					<References Name="[dbo].[CommunicationTypes].[Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignTable">
+				<Entry>
+					<References Name="[dbo].[CommunicationTypes]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="20" />
+		</Element>
+		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_USSDCampaigns_USSDNumberId]">
+			<Relationship Name="Columns">
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[USSDNumberId]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignColumns">
+				<Entry>
+					<References Name="[dbo].[UssdNumbers].[Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignTable">
+				<Entry>
+					<References Name="[dbo].[UssdNumbers]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="21" />
+		</Element>
+		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_USSDTransactions_MobileNetworkId]">
+			<Relationship Name="Columns">
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[MobileNetworkId]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[USSDTransactions]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignColumns">
+				<Entry>
+					<References Name="[dbo].[MobileNetworks].[Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignTable">
+				<Entry>
+					<References Name="[dbo].[MobileNetworks]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="22" />
+		</Element>
+		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_USSDTransactions_USSDCampaignId]">
+			<Relationship Name="Columns">
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[USSDCampaignId]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[USSDTransactions]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignColumns">
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignTable">
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="23" />
+		</Element>
+		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_USSDTransactions_USSDNumberId]">
+			<Relationship Name="Columns">
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[USSDNumberId]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[USSDTransactions]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignColumns">
+				<Entry>
+					<References Name="[dbo].[UssdNumbers].[Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignTable">
+				<Entry>
+					<References Name="[dbo].[UssdNumbers]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="24" />
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[HTTPTransactions]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[HTTPTransactions].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[HTTPTransactions].[USSDCampaignId]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[HTTPTransactions].[USSDTransactionId]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[HTTPTransactions].[MenuId]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[HTTPTransactions].[MobileNumber]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="20" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[HTTPTransactions].[ResolveURL]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="200" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[HTTPTransactions].[ClientReference]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[HTTPTransactions].[ClientMessage]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="159" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[HTTPTransactions].[ClientWebResponse]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="800" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[HTTPTransactions].[Errors]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[HTTPTransactions].[CreatedDate]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[HTTPTransactions].[CreatedByUserId]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="25" />
+			<AttachedAnnotation Disambiguator="13" />
+			<AttachedAnnotation Disambiguator="15" />
+			<AttachedAnnotation Disambiguator="14" />
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[InsertHTTPTransaction]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+
+Begin
+	Insert into [dbo].[HTTPTransactions]
+	 (
+		 [USSDCampaignId]		
+		,[USSDTransactionId]	
+		,[MenuId]				
+		,[MobileNumber]			
+		,[ResolveURL]			
+		,[ClientReference]		
+		,[ClientMessage]		
+		,[ClientWebResponse]	
+		,[CreatedDate]			
+		,[CreatedByUserId]		
+		,[Errors]
+	
+	 )
+	 Values
+	 (
+		 @USSDCampaignId	
+		,@USSDTransactionId	
+		,@MenuId			
+		,@MobileNumber		
+		,@ResolveURL		
+		,@ClientReference	
+		,@ClientMessage		
+		,@ClientWebResponse	
+		,@CreatedDate		
+		,@CreatedByUserId		
+		,@Errors
+	)
+	 Set  @Id = SCOPE_IDENTITY() 
+End]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[USSDTransactionId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[MenuId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[MobileNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[ResolveURL]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[ClientReference]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[ClientMessage]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[ClientWebResponse]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[CreatedDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[CreatedByUserId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[Errors]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertHTTPTransaction].[@USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertHTTPTransaction].[@USSDTransactionId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertHTTPTransaction].[@MenuId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertHTTPTransaction].[@MobileNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertHTTPTransaction].[@ResolveURL]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertHTTPTransaction].[@ClientReference]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertHTTPTransaction].[@ClientMessage]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertHTTPTransaction].[@ClientWebResponse]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertHTTPTransaction].[@CreatedDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertHTTPTransaction].[@CreatedByUserId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertHTTPTransaction].[@Errors]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertHTTPTransaction].[@Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertHTTPTransaction].[@Id]">
+						<Property Name="IsOutput" Value="True" />
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertHTTPTransaction].[@USSDCampaignId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertHTTPTransaction].[@USSDTransactionId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertHTTPTransaction].[@MenuId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertHTTPTransaction].[@MobileNumber]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="20" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertHTTPTransaction].[@ResolveURL]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="200" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertHTTPTransaction].[@ClientReference]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertHTTPTransaction].[@ClientMessage]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="159" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertHTTPTransaction].[@ClientWebResponse]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="800" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertHTTPTransaction].[@Errors]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertHTTPTransaction].[@CreatedDate]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertHTTPTransaction].[@CreatedByUserId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="964" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[InsertHTTPTransaction]&#xD;&#xA;&#x9; @Id&#x9;&#x9;&#x9;&#x9;&#x9;bigint output&#xD;&#xA;&#x9;,@USSDCampaignId&#x9;&#x9;int&#xD;&#xA;&#x9;,@USSDTransactionId&#x9;&#x9;bigint&#xD;&#xA;&#x9;,@MenuId&#x9;&#x9;&#x9;&#x9;int&#xD;&#xA;&#x9;,@MobileNumber&#x9;&#x9;&#x9;varchar(20)&#xD;&#xA;&#x9;,@ResolveURL&#x9;&#x9;&#x9;varchar(200)&#xD;&#xA;&#x9;,@ClientReference&#x9;&#x9;varchar(50)&#xD;&#xA;&#x9;,@ClientMessage&#x9;&#x9;&#x9;varchar(159)&#xD;&#xA;&#x9;,@ClientWebResponse&#x9;&#x9;varchar(800)&#xD;&#xA;&#x9;,@Errors&#x9;&#x9;&#x9;&#x9;nvarchar(max)&#xD;&#xA;&#x9;,@CreatedDate&#x9;&#x9;&#x9;Datetime&#xD;&#xA;&#x9;,@CreatedByUserId&#x9;&#x9;int&#xD;&#xA;&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[InsertMenuTransaction]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+Begin
+	Insert into  [dbo].[MenuTransactions]
+	(
+		 USSDMenuId
+		,USSDCampaignId
+		,USSDTransactionId
+		,MobileNetworkID
+		,MobileNumber
+		,EnteredSelectionValue
+		,MenuSection
+		,CreateDate
+	)
+	Values
+	(
+		@USSDMenuId			
+		,@USSDCampaignId		
+		,@USSDTransactionId		
+		,@MobileNetworkID		
+		,@MobileNumber			
+		,@EnteredSelectionValue 
+		,@MenuSection			
+		,@CreateDate			
+
+	)
+
+	Set @Id = SCOPE_IDENTITY()
+End]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[MenuTransactions]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[USSDMenuId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[USSDTransactionId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[MobileNetworkID]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[MobileNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[EnteredSelectionValue]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[MenuSection]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[CreateDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertMenuTransaction].[@USSDMenuId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertMenuTransaction].[@USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertMenuTransaction].[@USSDTransactionId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertMenuTransaction].[@MobileNetworkID]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertMenuTransaction].[@MobileNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertMenuTransaction].[@EnteredSelectionValue]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertMenuTransaction].[@MenuSection]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertMenuTransaction].[@CreateDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertMenuTransaction].[@Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertMenuTransaction].[@Id]">
+						<Property Name="IsOutput" Value="True" />
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertMenuTransaction].[@USSDMenuId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertMenuTransaction].[@USSDCampaignId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertMenuTransaction].[@USSDTransactionId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertMenuTransaction].[@MobileNetworkID]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertMenuTransaction].[@MobileNumber]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertMenuTransaction].[@EnteredSelectionValue]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="159" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertMenuTransaction].[@MenuSection]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertMenuTransaction].[@CreateDate]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="CreateOffset" Value="2" />
+				<Property Name="Length" Value="746" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="&#xD;&#xA;CREATE PROCEDURE [dbo].[InsertMenuTransaction]&#xD;&#xA;&#x9;(&#xD;&#xA;&#x9;&#x9; @Id Bigint output&#xD;&#xA;&#x9;&#x9;,@USSDMenuId&#x9;&#x9;&#x9;int&#xD;&#xA;&#x9;&#x9;,@USSDCampaignId&#x9;&#x9;int&#xD;&#xA;&#x9;&#x9;,@USSDTransactionId&#x9;&#x9;bigint &#xD;&#xA;&#x9;&#x9;,@MobileNetworkID&#x9;&#x9;int &#xD;&#xA;&#x9;&#x9;,@MobileNumber&#x9;&#x9;&#x9;varchar(50)&#xD;&#xA;&#x9;&#x9;,@EnteredSelectionValue varchar(159)&#xD;&#xA;&#x9;&#x9;,@MenuSection&#x9;&#x9;&#x9;int&#xD;&#xA;&#x9;&#x9;,@CreateDate&#x9;&#x9;&#x9;Datetime&#xD;&#xA;&#x9;)&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[InsertUSSDTransaction]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+Begin
+	Insert into  [dbo].[USSDTransactions]
+	(
+		[USSDCampaignId]
+		,[Message]
+		,[MobileNumber]
+		,[CreatedDate]
+		,[CreatedByUserId]
+		,[USSDNumberId]
+		,[SessionGuid]
+		,[MobileNetworkId]
+	)
+	Values
+	(
+		 @USSDCampaignId 
+		,@Message		 
+		,@MobileNumber   
+		,@CreatedDate    
+		,@CreatedByUserId
+		,@USSDNumberId   
+		,@SessionGuid    
+		,@MobileNetworkId
+
+	)
+
+	Set @Id = SCOPE_IDENTITY()
+End]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[USSDTransactions]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[Message]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[MobileNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[CreatedDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[CreatedByUserId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[USSDNumberId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[SessionGuid]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[MobileNetworkId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertUSSDTransaction].[@USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertUSSDTransaction].[@Message]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertUSSDTransaction].[@MobileNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertUSSDTransaction].[@CreatedDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertUSSDTransaction].[@CreatedByUserId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertUSSDTransaction].[@USSDNumberId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertUSSDTransaction].[@SessionGuid]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertUSSDTransaction].[@MobileNetworkId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[InsertUSSDTransaction].[@Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertUSSDTransaction].[@Id]">
+						<Property Name="IsOutput" Value="True" />
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertUSSDTransaction].[@USSDCampaignId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertUSSDTransaction].[@Message]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="159" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertUSSDTransaction].[@MobileNumber]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="20" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertUSSDTransaction].[@CreatedDate]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertUSSDTransaction].[@CreatedByUserId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertUSSDTransaction].[@USSDNumberId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertUSSDTransaction].[@SessionGuid]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[uniqueidentifier]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[InsertUSSDTransaction].[@MobileNetworkId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="871" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[InsertUSSDTransaction]&#xD;&#xA;    @Id                    BIGINT          output&#xD;&#xA;    ,@USSDCampaignId        Int&#x9;&#x9;&#x9;  &#xD;&#xA;    ,@Message&#x9;&#x9;        NVARCHAR (159)&#xD;&#xA;    ,@MobileNumber          NVARCHAR (20)  &#xD;&#xA;    ,@CreatedDate           DATETIME       &#xD;&#xA;    ,@CreatedByUserId       INT           &#xD;&#xA;    ,@USSDNumberId          INT           &#xD;&#xA;    ,@SessionGuid           UNIQUEIDENTIFIER&#xD;&#xA;    ,@MobileNetworkId&#x9;    INT             &#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[ListCampaigns]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+	SELECT 
+	 C.[Id]                   
+    ,C.[Name]                 
+    ,C.[Description]          
+    ,C.[ProcessorType]        
+    ,C.[CampaignStartDate]    
+    ,C.[CampaignEndDate]      
+    ,C.[CreatedDate]          
+    ,C.[CreatedByUserId]      
+    ,C.[USSDNumberId]         
+    ,C.[BackButton]           
+    ,C.[CommunicationTypeId]  
+    ,C.[WaitForHTTPResponse]  
+    ,C.[IsBillable]           
+    ,C.[BillAmount]           
+    ,C.[SendHTTPResponseBySMS]
+	,N.Number
+
+ FROM [dbo].[USSDCampaigns] C
+   inner join [dbo].[UssdNumbers] N On C.USSDNumberId = N.Id
+ where (CampaignStartDate is not null and (CampaignEndDate is null or CampaignStartDate > GETDATE()))
+		AND (@FilterName is null Or [name] = @FilterName)
+		AND (@FilterDescription is null or [Description] like '%' +@FilterDescription + '%')		
+		AND (@FilterUSSDNumber is null Or [Number] = @FilterUSSDNumber)
+		AND (@FilterUSSDNumberId is null Or [USSDNumberId] = @FilterUSSDNumberId)]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UssdNumbers]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[USSDNumberId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UssdNumbers].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Description]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[ProcessorType]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[CampaignStartDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[CampaignEndDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[CreatedDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[CreatedByUserId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[BackButton]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[CommunicationTypeId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[WaitForHTTPResponse]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[IsBillable]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[BillAmount]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[SendHTTPResponseBySMS]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UssdNumbers].[Number]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[CampaignStartDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[CampaignEndDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ListCampaigns].[@FilterName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ListCampaigns].[@FilterDescription]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Description]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ListCampaigns].[@FilterUSSDNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UssdNumbers].[Number]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ListCampaigns].[@FilterUSSDNumberId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[USSDNumberId]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ListCampaigns].[@FilterName]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[null]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="100" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ListCampaigns].[@FilterDescription]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[null]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="200" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ListCampaigns].[@FilterUSSDNumber]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[null]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="20" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ListCampaigns].[@FilterUSSDNumberId]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[null]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="1178" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[ListCampaigns]&#xD;&#xA;&#x9;@FilterName  varchar(100) = null,&#xD;&#xA;&#x9;@FilterDescription varchar(200) =  null, &#xD;&#xA;&#x9;@FilterUSSDNumber varchar(20)= null,&#xD;&#xA;&#x9;@FilterUSSDNumberId int = null&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[ListHTTPTransactions]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+
+BEGIN
+
+	Select 
+	 [T].Id
+	,[T].USSDCampaignId
+	,[T].USSDTransactionId
+	,[T].MenuId
+	,[T].MobileNumber
+	,[T].ResolveURL
+	,[T].ClientReference
+	,[T].ClientMessage
+	,[T].ClientWebResponse
+	,[T].CreatedDate
+	,[T].CreatedByUserId
+	,[C].[Description] [CampaignName]
+	,[M].Name [MenuName]
+
+	
+	From [dbo].[HTTPTransactions] T
+	inner join [dbo].[USSDCampaigns] C on T.USSDCampaignId = C.Id	
+	inner join [dbo].[USSDTransactions] UT on T.USSDTransactionId = UT.Id
+	inner join [dbo].[Menus] M on T.MenuId = M.Id	
+
+	Where 
+
+			(@MobileNumber is null or [T].[MobileNumber] = @MobileNumber)
+		AND (@ClientReference is null or [T].[ClientReference] = @ClientReference)
+
+	Order by [T].[Id]
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[USSDTransactionId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[Id]" />
+				</Entry>
+				<Entry />
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[MenuId]" />
+				</Entry>
+				<Entry />
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[USSDTransactionId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[MobileNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[ResolveURL]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[ClientReference]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[ClientMessage]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[ClientWebResponse]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[CreatedDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[CreatedByUserId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Description]" />
+				</Entry>
+				<Entry />
+				<Entry>
+					<References Name="[dbo].[ListHTTPTransactions].[@MobileNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ListHTTPTransactions].[@ClientReference]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ListHTTPTransactions].[@MobileNumber]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[null]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="20" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ListHTTPTransactions].[@ClientReference]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[null]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="837" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[ListHTTPTransactions]&#xD;&#xA;&#x9;&#x9; @MobileNumber  varchar(20) = null&#xD;&#xA;&#x9;&#x9;,@ClientReference varchar(50) = null &#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[ListMenuTransactions]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+Begin
+	Select top 1
+		 Id
+		,USSDMenuId
+		,USSDCampaignId
+		,USSDTransactionId
+		,MobileNetworkID
+		,MobileNumber
+		,EnteredSelectionValue
+		,MenuSection
+		,CreateDate
+	From [dbo].[MenuTransactions]
+    Where 
+			(@FilterUSSDCampaignId  is null or [USSDCampaignId] = @FilterUSSDCampaignId)
+		AND	(@FilterUSSDMenuId is null or [USSDMenuId] = @FilterUSSDMenuId)
+		AND (@FilterUSSDTransactionId is null or [USSDTransactionId] =@FilterUSSDTransactionId)
+
+  order by [Id]
+End]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[MenuTransactions]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[USSDMenuId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[USSDTransactionId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[MobileNetworkID]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[MobileNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[EnteredSelectionValue]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[MenuSection]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[CreateDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ListMenuTransactions].[@FilterUSSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ListMenuTransactions].[@FilterUSSDMenuId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ListMenuTransactions].[@FilterUSSDTransactionId]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ListMenuTransactions].[@FilterUSSDMenuId]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[null]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ListMenuTransactions].[@FilterUSSDCampaignId]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[null]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ListMenuTransactions].[@FilterUSSDTransactionId]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[null]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="CreateOffset" Value="2" />
+				<Property Name="Length" Value="690" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="&#xD;&#xA;CREATE PROCEDURE [dbo].[ListMenuTransactions]&#xD;&#xA;&#x9;(&#xD;&#xA;&#x9;&#x9;  @FilterUSSDMenuId BigInt = null&#xD;&#xA;         ,@FilterUSSDCampaignId int = null&#xD;&#xA;         ,@FilterUSSDTransactionId BigInt =  null&#xD;&#xA;       &#xD;&#xA;&#x9;)&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[ListUSSDTransactions]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+
+BEGIN
+
+	Select 
+	 [T].[Id]
+	,[T].[USSDCampaignId]	
+	,[T].[Message]			
+	,[T].[MobileNumber]		
+	,[T].[CreatedDate]		
+	,[T].[CreatedByUserId]	
+	,[T].[USSDNumberId]		
+	,[T].[SessionGuid]		
+	,[T].[MobileNetworkId]
+	,[C].[Description] [CampaignName]
+	,[N].[Number]
+	,[MN].MobileNetworkName [MobileNetwork]
+
+	
+	From [dbo].[USSDTransactions] T
+	inner join [dbo].[USSDCampaigns] C on T.USSDCampaignId = C.Id	
+	inner join [dbo].[UssdNumbers] N on T.USSDNumberId = N.Id
+	inner join [dbo].[MobileNetworks] MN on T.MobileNetworkId = MN.Id	
+
+	Where 
+			(@Number is null or [N].[Number] = @Number)
+		AND (@MobileNumber is null or [T].[MobileNumber] = @MobileNumber)
+		AND (@SessionGuid is null or [T].[SessionGuid] = @SessionGuid)
+
+	Order by [T].[Id]
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[USSDTransactions]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UssdNumbers]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[USSDNumberId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UssdNumbers].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MobileNetworks]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[MobileNetworkId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MobileNetworks].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[Message]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[MobileNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[CreatedDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[CreatedByUserId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[USSDNumberId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[SessionGuid]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Description]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UssdNumbers].[Number]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MobileNetworks].[MobileNetworkName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ListUSSDTransactions].[@Number]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ListUSSDTransactions].[@MobileNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ListUSSDTransactions].[@SessionGuid]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ListUSSDTransactions].[@Number]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[null]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ListUSSDTransactions].[@MobileNumber]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[null]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="20" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ListUSSDTransactions].[@SessionGuid]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[null]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="920" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[ListUSSDTransactions]&#xD;&#xA;&#x9;&#x9; @Number Bigint =null&#xD;&#xA;&#x9;&#x9;,@MobileNumber  varchar(20) = null&#xD;&#xA;&#x9;&#x9;,@SessionGuid varchar(50) = null &#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[MenuOptions]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MenuOptions].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MenuOptions].[Command]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="250" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MenuOptions].[DisplayOrder]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MenuOptions].[Display]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bit]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MenuOptions].[Callback]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="100" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MenuOptions].[Text]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="255" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="26" />
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[MenuTransactions]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MenuTransactions].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MenuTransactions].[USSDMenuId]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MenuTransactions].[USSDCampaignId]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MenuTransactions].[USSDTransactionId]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MenuTransactions].[MobileNetworkID]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MenuTransactions].[MobileNumber]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="20" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MenuTransactions].[EnteredSelectionValue]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="159" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MenuTransactions].[CreateDate]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MenuTransactions].[MenuSection]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="27" />
+			<AttachedAnnotation Disambiguator="18" />
+			<AttachedAnnotation Disambiguator="17" />
+			<AttachedAnnotation Disambiguator="19" />
+			<AttachedAnnotation Disambiguator="16" />
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[MobileNetworks]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MobileNetworks].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="10" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[MobileNetworks].[MobileNetworkName]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="100" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_Campaigns_Id]">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[USSDCampaigns].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="28" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_HTTPTransactions_Id]">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[HTTPTransactions].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions]" />
+				</Entry>
+			</Relationship>
+			<AttachedAnnotation Disambiguator="25" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_MenuOptions_Id]">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[MenuOptions].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[MenuOptions]" />
+				</Entry>
+			</Relationship>
+			<AttachedAnnotation Disambiguator="26" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_Menus_Id]">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[USSDMenus].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[USSDMenus]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="29" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_MenuTransactions_Id]">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[MenuTransactions].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[MenuTransactions]" />
+				</Entry>
+			</Relationship>
+			<AttachedAnnotation Disambiguator="27" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_Users_Id]">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[Users].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[Users]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="30" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_USSDTransactions_Id]">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[USSDTransactions].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[USSDTransactions]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="31" />
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[UpdateHTTPTransaction]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+
+Begin
+	Update [dbo].[HTTPTransactions]
+	 set
+		 [USSDCampaignId]		= @USSDCampaignId	
+		,[USSDTransactionId]	= @USSDTransactionId	
+		,[MenuId]				= @MenuId			
+		,[MobileNumber]			= @MobileNumber		
+		,[ResolveURL]			= @ResolveURL		
+		,[ClientReference]		= @ClientReference	
+		,[ClientMessage]		= @ClientMessage		
+		,[ClientWebResponse]	= @ClientWebResponse	
+		,[CreatedDate]			= @CreatedDate		
+		,[CreatedByUserId]		= @CreatedByUserId	
+		,[Errors]				= @Errors
+	Where [Id] =  @Id 
+End]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateHTTPTransaction].[@USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[USSDTransactionId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateHTTPTransaction].[@USSDTransactionId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[MenuId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateHTTPTransaction].[@MenuId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[MobileNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateHTTPTransaction].[@MobileNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[ResolveURL]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateHTTPTransaction].[@ResolveURL]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[ClientReference]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateHTTPTransaction].[@ClientReference]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[ClientMessage]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateHTTPTransaction].[@ClientMessage]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[ClientWebResponse]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateHTTPTransaction].[@ClientWebResponse]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[CreatedDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateHTTPTransaction].[@CreatedDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[CreatedByUserId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateHTTPTransaction].[@CreatedByUserId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[Errors]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateHTTPTransaction].[@Errors]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[HTTPTransactions].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateHTTPTransaction].[@Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateHTTPTransaction].[@Id]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateHTTPTransaction].[@USSDCampaignId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateHTTPTransaction].[@USSDTransactionId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateHTTPTransaction].[@MenuId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateHTTPTransaction].[@MobileNumber]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="20" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateHTTPTransaction].[@ResolveURL]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="200" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateHTTPTransaction].[@ClientReference]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateHTTPTransaction].[@ClientMessage]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="159" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateHTTPTransaction].[@ClientWebResponse]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="800" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateHTTPTransaction].[@Errors]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateHTTPTransaction].[@CreatedDate]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateHTTPTransaction].[@CreatedByUserId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="886" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[UpdateHTTPTransaction]&#xD;&#xA;&#x9; @Id&#x9;&#x9;&#x9;&#x9;&#x9;bigint&#xD;&#xA;&#x9;,@USSDCampaignId&#x9;&#x9;int&#xD;&#xA;&#x9;,@USSDTransactionId&#x9;&#x9;bigint&#xD;&#xA;&#x9;,@MenuId&#x9;&#x9;&#x9;&#x9;int&#xD;&#xA;&#x9;,@MobileNumber&#x9;&#x9;&#x9;varchar(20)&#xD;&#xA;&#x9;,@ResolveURL&#x9;&#x9;&#x9;varchar(200)&#xD;&#xA;&#x9;,@ClientReference&#x9;&#x9;varchar(50)&#xD;&#xA;&#x9;,@ClientMessage&#x9;&#x9;&#x9;varchar(159)&#xD;&#xA;&#x9;,@ClientWebResponse&#x9;&#x9;varchar(800)&#xD;&#xA;&#x9;,@Errors&#x9;&#x9;&#x9;&#x9;nvarchar(max)&#xD;&#xA;&#x9;,@CreatedDate&#x9;&#x9;&#x9;Datetime&#xD;&#xA;&#x9;,@CreatedByUserId&#x9;&#x9;int&#xD;&#xA;&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[UpdateMenuTransaction]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+Begin
+	Update  [dbo].[MenuTransactions]
+		Set
+		 USSDMenuId				= @USSDMenuId			
+		,USSDCampaignId			= @USSDCampaignId		
+		,USSDTransactionId		= @USSDTransactionId		
+		,MobileNetworkID		= @MobileNetworkID		
+		,MobileNumber			= @MobileNumber			
+		,EnteredSelectionValue	= @EnteredSelectionValue 
+		,MenuSection			= @MenuSection			
+		,CreateDate				= @CreateDate			
+	
+	Where [Id] =  @Id
+End]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[MenuTransactions]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[USSDMenuId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateMenuTransaction].[@USSDMenuId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateMenuTransaction].[@USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[USSDTransactionId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateMenuTransaction].[@USSDTransactionId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[MobileNetworkID]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateMenuTransaction].[@MobileNetworkID]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[MobileNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateMenuTransaction].[@MobileNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[EnteredSelectionValue]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateMenuTransaction].[@EnteredSelectionValue]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[MenuSection]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateMenuTransaction].[@MenuSection]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[CreateDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateMenuTransaction].[@CreateDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[MenuTransactions].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateMenuTransaction].[@Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateMenuTransaction].[@Id]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateMenuTransaction].[@USSDMenuId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateMenuTransaction].[@USSDCampaignId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateMenuTransaction].[@USSDTransactionId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateMenuTransaction].[@MobileNetworkID]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateMenuTransaction].[@MobileNumber]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateMenuTransaction].[@EnteredSelectionValue]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="159" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateMenuTransaction].[@MenuSection]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateMenuTransaction].[@CreateDate]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="CreateOffset" Value="2" />
+				<Property Name="Length" Value="706" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="&#xD;&#xA;CREATE PROCEDURE [dbo].[UpdateMenuTransaction]&#xD;&#xA;&#x9;(&#xD;&#xA;&#x9;&#x9; @Id Bigint &#xD;&#xA;&#x9;&#x9;,@USSDMenuId&#x9;&#x9;&#x9;int&#xD;&#xA;&#x9;&#x9;,@USSDCampaignId&#x9;&#x9;int&#xD;&#xA;&#x9;&#x9;,@USSDTransactionId&#x9;&#x9;bigint &#xD;&#xA;&#x9;&#x9;,@MobileNetworkID&#x9;&#x9;int &#xD;&#xA;&#x9;&#x9;,@MobileNumber&#x9;&#x9;&#x9;varchar(50)&#xD;&#xA;&#x9;&#x9;,@EnteredSelectionValue varchar(159)&#xD;&#xA;&#x9;&#x9;,@MenuSection&#x9;&#x9;&#x9;int&#xD;&#xA;&#x9;&#x9;,@CreateDate&#x9;&#x9;&#x9;Datetime&#xD;&#xA;&#x9;)&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[UpdateUSSDTransaction]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+Begin
+	Update [dbo].[USSDTransactions]
+	 set
+		 [USSDCampaignId]	= @USSDCampaignId 
+		,[Message]			= @Message		 
+		,[MobileNumber]		= @MobileNumber   
+		,[CreatedDate]		= @CreatedDate    
+		,[CreatedByUserId]	= @CreatedByUserId
+		,[USSDNumberId]		= @USSDNumberId   
+		,[SessionGuid]		= @SessionGuid    
+		,[MobileNetworkId]	= @MobileNetworkId
+	Where [Id] =  @Id 
+End]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[USSDTransactions]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateUSSDTransaction].[@USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[Message]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateUSSDTransaction].[@Message]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[MobileNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateUSSDTransaction].[@MobileNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[CreatedDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateUSSDTransaction].[@CreatedDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[CreatedByUserId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateUSSDTransaction].[@CreatedByUserId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[USSDNumberId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateUSSDTransaction].[@USSDNumberId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[SessionGuid]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateUSSDTransaction].[@SessionGuid]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[MobileNetworkId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateUSSDTransaction].[@MobileNetworkId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDTransactions].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UpdateUSSDTransaction].[@Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateUSSDTransaction].[@Id]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateUSSDTransaction].[@USSDCampaignId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateUSSDTransaction].[@Message]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="159" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateUSSDTransaction].[@MobileNumber]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="20" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateUSSDTransaction].[@CreatedDate]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateUSSDTransaction].[@CreatedByUserId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateUSSDTransaction].[@USSDNumberId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateUSSDTransaction].[@SessionGuid]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[uniqueidentifier]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UpdateUSSDTransaction].[@MobileNetworkId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="CreateOffset" Value="2" />
+				<Property Name="Length" Value="823" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="&#xD;&#xA;CREATE PROCEDURE [dbo].[UpdateUSSDTransaction]&#xD;&#xA;&#x9;(&#xD;&#xA;&#x9; @Id                    BIGINT     &#xD;&#xA;    ,@USSDCampaignId        Int&#x9;&#x9;&#x9;  &#xD;&#xA;    ,@Message&#x9;&#x9;        NVARCHAR (159)&#xD;&#xA;    ,@MobileNumber          NVARCHAR (20)  &#xD;&#xA;    ,@CreatedDate           DATETIME       &#xD;&#xA;    ,@CreatedByUserId       INT           &#xD;&#xA;    ,@USSDNumberId          INT           &#xD;&#xA;    ,@SessionGuid           UNIQUEIDENTIFIER&#xD;&#xA;    ,@MobileNetworkId&#x9;    INT &#xD;&#xA;&#x9;)            &#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[Users]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Users].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Users].[UserName]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Users].[FirstName]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="100" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Users].[LastName]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="100" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Users].[Password]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="100" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Users].[EmailAddress]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="100" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Users].[LastLoginDate]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Users].[LoginAttempt]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<AttachedAnnotation Disambiguator="30" />
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[usp_GetMenuItems]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+
+SELECT TOP 1000 
+	   [M].[Id] [MenuId]
+      ,[M].[UssdCampaignId]
+      ,[M].[Name] 
+      ,[M].[ParentMenuId]
+      ,[M].[ReturnMenuId]
+      ,[M].[ReturnValue]
+      ,[M].[DisplayData]
+      ,[M].[ShowBack]
+      ,[M].[OrderNumber]
+	  ,[C].[Name]   as  [CampaignName]          
+	  ,[C].[Description]        
+	  ,[C].[ProcessorType]      
+	  ,[C].[CampaignStartDate]  
+	  ,[C].[CampaignEndDate]    
+	  ,[C].[CreatedDate]        
+	  ,[C].[CreatedByUserId]    
+	  ,[C].[USSDNumberId]       
+	  ,[C].[BackButton]         
+	  ,[C].[CommunicationTypeId]
+	  ,[C].[WaitForHTTPResponse]
+	  ,[C].[IsBillable]         
+	  ,[C].[BillAmount]
+	  ,[C].[SendHTTPResponseBySMS]          
+	  ,[CT].CommunicationText
+	  
+  FROM [dbo].[USSDMenus] M
+    inner join [dbo].[USSDCampaigns]  C on M.UssdCampaignId = C.Id
+	inner join [dbo].[CommunicationTypes] CT on C.CommunicationTypeId = CT.Id 
+	inner join [dbo].[UssdNumbers] N on C.USSDNumberId = N.Id
+	Where [M].[UssdCampaignId] = @USSDCampaignId
+			And (@USSDNumber is null or [N].[Number] = @USSDNumber)]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[USSDMenus]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDMenus].[UssdCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CommunicationTypes]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[CommunicationTypeId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CommunicationTypes].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UssdNumbers]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[USSDNumberId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UssdNumbers].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDMenus].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDMenus].[UssdCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDMenus].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDMenus].[ParentMenuId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDMenus].[ReturnMenuId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDMenus].[ReturnValue]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDMenus].[DisplayData]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDMenus].[ShowBack]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDMenus].[OrderNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[Description]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[ProcessorType]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[CampaignStartDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[CampaignEndDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[CreatedDate]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[CreatedByUserId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[BackButton]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[CommunicationTypeId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[WaitForHTTPResponse]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[IsBillable]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[BillAmount]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[USSDCampaigns].[SendHTTPResponseBySMS]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[CommunicationTypes].[CommunicationText]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[usp_GetMenuItems].[@USSDCampaignId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[usp_GetMenuItems].[@USSDNumber]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UssdNumbers].[Number]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[usp_GetMenuItems].[@USSDCampaignId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[usp_GetMenuItems].[@USSDNumber]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[null]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="20" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="CreateOffset" Value="2" />
+				<Property Name="Length" Value="1188" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="&#xD;&#xA;Create Procedure [dbo].[usp_GetMenuItems]&#xD;&#xA;&#x9;(&#xD;&#xA;&#x9;&#x9; @USSDCampaignId int&#xD;&#xA;&#x9;&#x9;,@USSDNumber varchar(20) = null&#x9;&#xD;&#xA;&#x9;)&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[USSDCampaigns]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDCampaigns].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDCampaigns].[Name]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="250" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDCampaigns].[Description]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDCampaigns].[ProcessorType]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="800" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDCampaigns].[CampaignStartDate]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDCampaigns].[CampaignEndDate]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDCampaigns].[CreatedDate]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDCampaigns].[CreatedByUserId]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDCampaigns].[USSDNumberId]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDCampaigns].[BackButton]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDCampaigns].[CommunicationTypeId]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDCampaigns].[WaitForHTTPResponse]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bit]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="3" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDCampaigns].[IsBillable]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bit]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="4" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDCampaigns].[BillAmount]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Scale" Value="2" />
+									<Property Name="Precision" Value="18" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[numeric]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDCampaigns].[SendHTTPResponseBySMS]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bit]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="5" />
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<AttachedAnnotation Disambiguator="28" />
+			<AttachedAnnotation Disambiguator="20" />
+			<AttachedAnnotation Disambiguator="21" />
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[USSDMenus]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDMenus].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDMenus].[UssdCampaignId]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDMenus].[Name]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="188" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDMenus].[ParentMenuId]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="6" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDMenus].[ReturnMenuId]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="7" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDMenus].[ReturnValue]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDMenus].[DisplayData]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="188" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDMenus].[ShowBack]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bit]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="8" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDMenus].[OrderNumber]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="9" />
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<AttachedAnnotation Disambiguator="29" />
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[UssdNumbers]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[UssdNumbers].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[UssdNumbers].[Number]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="20" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<AttachedAnnotation Disambiguator="11" />
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[USSDTransactions]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDTransactions].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bigint]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDTransactions].[USSDCampaignId]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDTransactions].[Message]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="159" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDTransactions].[MobileNumber]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="20" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDTransactions].[CreatedDate]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDTransactions].[CreatedByUserId]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDTransactions].[USSDNumberId]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDTransactions].[SessionGuid]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[uniqueidentifier]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[USSDTransactions].[MobileNetworkId]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<AttachedAnnotation Disambiguator="31" />
+			<AttachedAnnotation Disambiguator="24" />
+			<AttachedAnnotation Disambiguator="22" />
+			<AttachedAnnotation Disambiguator="23" />
+		</Element>
+	</Model>
+</DataSchemaModel>

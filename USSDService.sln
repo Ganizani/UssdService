@@ -1,0 +1,156 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DE18CCB6-5EF8-44E5-912E-77CE9CE05AB4}"
+	ProjectSection(SolutionItems) = preProject
+		CokeUSSDService.vsmdi = CokeUSSDService.vsmdi
+		CokeUSSDService1.vsmdi = CokeUSSDService1.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6B0C10F5-1792-4E2D-A9B0-A719AD6409EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Processors", "Processors", "{AF9E0572-D7BE-4423-A07B-727AF9E42F44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USSDService", "USSDService\USSDService.csproj", "{83E6C392-C5BB-4F3C-BDBB-EC2E829D8466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUSSDMenu", "USSDService\Tests\TestUSSDMenu.csproj", "{0FA66E42-6D63-4EF2-A1E6-4609E2A2D92F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VodacomUSSDTest", "Tests\VodacomUSSDTest\VodacomUSSDTest.csproj", "{ECC9E5DB-5A36-4B3B-9F88-2A3FEE27C9A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USSDCommon", "USSDCommon\USSDCommon.csproj", "{D38714F6-166E-491F-BA02-9B3ADF93AAEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscriptionUSSDProcessor", "SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\SubscriptionUSSDProcessor.csproj", "{516F86A9-A742-4BB6-B163-0F3DAE6E7E12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLRPCTest", "XMLRPCTest\XMLRPCTest.csproj", "{5C86F28B-4381-4D47-8BFC-8BB72D4A656A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomUSSDProcessor", "CustomUSSDProcessor\CustomUSSDProcessor.csproj", "{E9993A4F-926D-45B1-9F9B-F0A792263FFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleOptSubscriptionUSSD", "DoubleOptSubscriptionUSSD\DoubleOptSubscriptionUSSD.csproj", "{CCC16704-1A37-4FFA-BF00-ABDA66C536BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{07ECB942-4B37-47EA-A0EE-4C8B07D37A3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USSD.DAL", "USSD.DAL\USSD.DAL.csproj", "{D3EDA2A8-9789-43D5-8F33-E709453013E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USSD.BLL", "USSD.BLL\USSD.BLL.csproj", "{2298CB8C-942A-4E66-BAE0-7D49DFCD8101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USSD.Entities", "USSDEntities\USSD.Entities.csproj", "{ABACF37E-EA95-40A1-A879-3CA09A659D07}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "USSDService.DBSchema", "USSDService.DBSchema\USSDService.DBSchema.sqlproj", "{5AAFC44F-5C8F-4345-9C39-AC1304D0C31F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutuelSmartUSSDProcessor", "MutuelSmartUSSDProcessor\MutuelSmartUSSDProcessor.csproj", "{72F8176A-B73A-4A6E-BE0F-3E2CFB3226F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83E6C392-C5BB-4F3C-BDBB-EC2E829D8466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E6C392-C5BB-4F3C-BDBB-EC2E829D8466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E6C392-C5BB-4F3C-BDBB-EC2E829D8466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E6C392-C5BB-4F3C-BDBB-EC2E829D8466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FA66E42-6D63-4EF2-A1E6-4609E2A2D92F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA66E42-6D63-4EF2-A1E6-4609E2A2D92F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA66E42-6D63-4EF2-A1E6-4609E2A2D92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA66E42-6D63-4EF2-A1E6-4609E2A2D92F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC9E5DB-5A36-4B3B-9F88-2A3FEE27C9A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC9E5DB-5A36-4B3B-9F88-2A3FEE27C9A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC9E5DB-5A36-4B3B-9F88-2A3FEE27C9A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC9E5DB-5A36-4B3B-9F88-2A3FEE27C9A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D38714F6-166E-491F-BA02-9B3ADF93AAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D38714F6-166E-491F-BA02-9B3ADF93AAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D38714F6-166E-491F-BA02-9B3ADF93AAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D38714F6-166E-491F-BA02-9B3ADF93AAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{516F86A9-A742-4BB6-B163-0F3DAE6E7E12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{516F86A9-A742-4BB6-B163-0F3DAE6E7E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{516F86A9-A742-4BB6-B163-0F3DAE6E7E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{516F86A9-A742-4BB6-B163-0F3DAE6E7E12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C86F28B-4381-4D47-8BFC-8BB72D4A656A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C86F28B-4381-4D47-8BFC-8BB72D4A656A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C86F28B-4381-4D47-8BFC-8BB72D4A656A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C86F28B-4381-4D47-8BFC-8BB72D4A656A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9993A4F-926D-45B1-9F9B-F0A792263FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9993A4F-926D-45B1-9F9B-F0A792263FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9993A4F-926D-45B1-9F9B-F0A792263FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9993A4F-926D-45B1-9F9B-F0A792263FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC16704-1A37-4FFA-BF00-ABDA66C536BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC16704-1A37-4FFA-BF00-ABDA66C536BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC16704-1A37-4FFA-BF00-ABDA66C536BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC16704-1A37-4FFA-BF00-ABDA66C536BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3EDA2A8-9789-43D5-8F33-E709453013E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3EDA2A8-9789-43D5-8F33-E709453013E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3EDA2A8-9789-43D5-8F33-E709453013E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EDA2A8-9789-43D5-8F33-E709453013E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2298CB8C-942A-4E66-BAE0-7D49DFCD8101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2298CB8C-942A-4E66-BAE0-7D49DFCD8101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2298CB8C-942A-4E66-BAE0-7D49DFCD8101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2298CB8C-942A-4E66-BAE0-7D49DFCD8101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABACF37E-EA95-40A1-A879-3CA09A659D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABACF37E-EA95-40A1-A879-3CA09A659D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABACF37E-EA95-40A1-A879-3CA09A659D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABACF37E-EA95-40A1-A879-3CA09A659D07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AAFC44F-5C8F-4345-9C39-AC1304D0C31F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AAFC44F-5C8F-4345-9C39-AC1304D0C31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AAFC44F-5C8F-4345-9C39-AC1304D0C31F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5AAFC44F-5C8F-4345-9C39-AC1304D0C31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AAFC44F-5C8F-4345-9C39-AC1304D0C31F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AAFC44F-5C8F-4345-9C39-AC1304D0C31F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{72F8176A-B73A-4A6E-BE0F-3E2CFB3226F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F8176A-B73A-4A6E-BE0F-3E2CFB3226F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F8176A-B73A-4A6E-BE0F-3E2CFB3226F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F8176A-B73A-4A6E-BE0F-3E2CFB3226F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FA66E42-6D63-4EF2-A1E6-4609E2A2D92F} = {6B0C10F5-1792-4E2D-A9B0-A719AD6409EE}
+		{ECC9E5DB-5A36-4B3B-9F88-2A3FEE27C9A2} = {6B0C10F5-1792-4E2D-A9B0-A719AD6409EE}
+		{516F86A9-A742-4BB6-B163-0F3DAE6E7E12} = {AF9E0572-D7BE-4423-A07B-727AF9E42F44}
+		{5C86F28B-4381-4D47-8BFC-8BB72D4A656A} = {6B0C10F5-1792-4E2D-A9B0-A719AD6409EE}
+		{E9993A4F-926D-45B1-9F9B-F0A792263FFD} = {AF9E0572-D7BE-4423-A07B-727AF9E42F44}
+		{CCC16704-1A37-4FFA-BF00-ABDA66C536BA} = {AF9E0572-D7BE-4423-A07B-727AF9E42F44}
+		{5AAFC44F-5C8F-4345-9C39-AC1304D0C31F} = {07ECB942-4B37-47EA-A0EE-4C8B07D37A3B}
+		{72F8176A-B73A-4A6E-BE0F-3E2CFB3226F2} = {AF9E0572-D7BE-4423-A07B-727AF9E42F44}
+	EndGlobalSection
+	GlobalSection(VaultVsipSolution-v2) = preSolution
+		VaultHost = http://sourcevault.exactdev.co.za/VaultService
+		VaultRepositoryID = 4
+		VaultRepositoryGUID = ba546b4d-592d-4760-9ea4-7ebd9cd49559
+		ProjectCount = 31
+		ProjectRelativeDiskPath1 = USSDService\USSDService.csproj
+		ProjectRelativeDiskPath2 = USSDService.sln
+		ProjectRelativeDiskPath3 = USSDService.sln
+		ProjectRelativeDiskPath4 = USSDService\Tests\TestUSSDMenu.csproj
+		ProjectRelativeDiskPath5 = Tests\VodacomUSSDTest\VodacomUSSDTest.csproj
+		ProjectRelativeDiskPath6 = USSDCommon\USSDCommon.csproj
+		ProjectRelativeDiskPath7 = USSDService.sln
+		ProjectRelativeDiskPath8 = CokeUSSDProcessor\CokeUSSDProcessor.csproj
+		ProjectRelativeDiskPath9 = SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\SubscriptionUSSDProcessor.csproj
+		ProjectRelativeDiskPath10 = MonsterMixUSSDProcessor\MonsterMixUSSDProcessor.csproj
+		ProjectRelativeDiskPath11 = AgileSolutionUSSDProcessor\AgileSolutionUSSDProcessor.csproj
+		ProjectRelativeDiskPath12 = XMLRPCTest\XMLRPCTest.csproj
+		ProjectRelativeDiskPath13 = CocaColaSummahhYammaSummerUSSDProcessor\CocaColaSummahhYammaSummerUSSDProcessor.csproj
+		ProjectRelativeDiskPath14 = PoweradeUSSDProcessor\PoweradeUSSDProcessor.csproj
+		ProjectRelativeDiskPath15 = GospelDailyUSSDProcessor\GospelDailyUSSDProcessor.csproj
+		ProjectRelativeDiskPath16 = McDonalds2010FIFAWorldCup\McDonalds2010FIFAWorldCup.csproj
+		ProjectRelativeDiskPath17 = TrophyTourUSSDProcessor\TrophyTourUSSDProcessor.csproj
+		ProjectRelativeDiskPath18 = SABCGospelProject2010USSD\SABCGospelProject2010USSD.csproj
+		ProjectRelativeDiskPath19 = RABUSSDProcessor\RABUSSDProcessor.csproj
+		ProjectRelativeDiskPath20 = CustomUSSDProcessor\CustomUSSDProcessor.csproj
+		ProjectRelativeDiskPath21 = DoubleOptSubscriptionUSSD\DoubleOptSubscriptionUSSD.csproj
+		ProjectRelativeDiskPath22 = ShapaMusicClubUSSD\ShapaMusicClubUSSD.csproj
+		ProjectRelativeDiskPath23 = Processors\ThePeoplesGospelUSSDProcessor\ThePeoplesGospelUSSDProcessor.csproj
+		ProjectRelativeDiskPath24 = AwesomeTonesUSSDProcessor\AwesomeTonesUSSDProcessor.csproj
+		ProjectRelativeDiskPath25 = AwesomeGamesUSSDProcessor\AwesomeGamesUSSDProcessor.csproj
+		ProjectRelativeDiskPath26 = SuperMUSSDProcessors\SuperMUSSDProcessors.csproj
+		ProjectRelativeDiskPath27 = FlavoursExplosion\FlavoursExplosion.csproj
+		ProjectRelativeDiskPath28 = KCP_EurocomProcessor\KCP_EurocomProcessor.csproj
+		ProjectRelativeDiskPath29 = Processors\AwesomeWWEUSSDProcessor\AwesomeWWEUSSDProcessor.csproj
+		ProjectRelativeDiskPath30 = HansaPilsenerUSSDProcessor\HansaPilsenerUSSDProcessor.csproj
+		ProjectRelativeDiskPath31 = CokeRefreshmentPromo\CokeRefreshmentPromo.csproj
+	EndGlobalSection
+EndGlobal

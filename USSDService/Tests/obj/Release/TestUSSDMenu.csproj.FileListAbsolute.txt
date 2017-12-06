@@ -1,0 +1,163 @@
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\TestProject1.dll.config
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\TestProject1.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\TestProject1.pdb
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\exactmobile.ussdcommon.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\exactmobile.ussdservice.exe
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\CHandsetModel.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\CUtility.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\Microsoft.Web.Services2.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\CDevice.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\CXMLCapsule.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\VodacomRAB.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\CUser.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\CPaymentSystem.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\Microsoft.Practices.Unity.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\CDB.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\ExactPaymentWrapper.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\CQueueWrapper.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\Org.Mentalis.Security.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\iVeri.EnterpriseSC.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\exactmobile.ussdcommon.pdb
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\exactmobile.ussdservice.pdb
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\obj\Release\ResolveAssemblyReference.cache
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\obj\Release\TestProject1.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\obj\Release\TestProject1.pdb
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\MessageQueueWrapper.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\ExactInternal.Config.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\Exactmobile.Integration.Tellus.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\ExactInternal.SMPP.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\ExactInternal.Config.Entities.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\Tellus.Helpers.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\ExactInternal.MessagingConfiguration.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\Tellus.DataAccessLayer.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\ExactInternal.ConfigServer.Contract.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\Tellus.SmsGateway.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\ExactInternal.Messaging.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\ExactInternal.QueueHelper.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\ExactInternal.Data.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\Tellus.Enums.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\ExactInternal.Utils.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\log4net.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\ExactInternal.QueueHelperService.Contract.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\Tellus.Entities.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\Tellus.LogicLayer.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDService\Tests\bin\Release\Tellus.SmsGateway.Contract.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\TestProject1.dll.config
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\TestProject1.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\TestProject1.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\ExactCommon.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\exactLogging.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\exactmobile.ussdcommon.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\exactmobile.ussdservice.exe
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\CPaymentSystem.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\CDB.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\CQueueWrapper.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\CXMLCapsule.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\ExactPaymentWrapper.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\USSD.Entities.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\CUtility.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\Newtonsoft.Json.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\USSD.BLL.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\Microsoft.Practices.Unity.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\Microsoft.Web.Services2.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\VodacomRAB.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\Org.Mentalis.Security.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\CDevice.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\iVeri.EnterpriseSC.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\MBDInternal.Data.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\CUser.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\NLog.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\USSD.DAL.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\MBDInternal.Utils.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\CHandsetModel.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\exactmobile.ussdcommon.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\exactmobile.ussdservice.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\USSD.Entities.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\Newtonsoft.Json.xml
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\USSD.BLL.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\NLog.xml
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\bin\Release\USSD.DAL.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\obj\Release\TestUSSDMenu.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\obj\Release\TestProject1.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService\Tests\obj\Release\TestProject1.pdb
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\TestProject1.dll.config
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\TestProject1.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\TestProject1.pdb
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\exactmobile.ussdcommon.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\exactmobile.ussdservice.exe
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\CPaymentSystem.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\CDB.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\CQueueWrapper.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\CXMLCapsule.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\ExactPaymentWrapper.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\USSD.Entities.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\CUtility.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\Newtonsoft.Json.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\USSD.BLL.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\Microsoft.Practices.Unity.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\Microsoft.Web.Services2.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\VodacomRAB.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\Org.Mentalis.Security.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\CDevice.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\iVeri.EnterpriseSC.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\MBDInternal.Data.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\CUser.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\NLog.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\USSD.DAL.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\MBDInternal.Utils.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\CHandsetModel.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\exactmobile.ussdcommon.pdb
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\exactmobile.ussdservice.pdb
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\USSD.Entities.pdb
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\Newtonsoft.Json.xml
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\USSD.BLL.pdb
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\NLog.xml
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\bin\Release\USSD.DAL.pdb
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\obj\Release\TestUSSDMenu.csprojResolveAssemblyReference.cache
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\obj\Release\TestProject1.dll
+C:\Development\Backups\Source code\USSDService\USSDService\Tests\obj\Release\TestProject1.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\TestProject1.dll.config
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\TestProject1.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\TestProject1.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\exactmobile.ussdcommon.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\exactmobile.ussdservice.exe
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\CPaymentSystem.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\CDB.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\CQueueWrapper.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\CXMLCapsule.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\ExactPaymentWrapper.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\USSD.Entities.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\CUtility.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\Newtonsoft.Json.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\USSD.BLL.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\Microsoft.Web.Services2.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\VodacomRAB.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\Org.Mentalis.Security.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\CDevice.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\iVeri.EnterpriseSC.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\MBDInternal.Data.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\CUser.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\NLog.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\USSD.DAL.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\CHandsetModel.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\exactmobile.ussdcommon.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\exactmobile.ussdservice.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\USSD.Entities.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\USSD.BLL.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\NLog.xml
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\bin\Release\USSD.DAL.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\obj\Release\TestUSSDMenu.csprojResolveAssemblyReference.cache
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\obj\Release\TestProject1.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService\Tests\obj\Release\TestProject1.pdb

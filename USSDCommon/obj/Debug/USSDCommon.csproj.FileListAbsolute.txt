@@ -1,0 +1,205 @@
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\exactmobile.ussdcommon.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\exactmobile.ussdcommon.pdb
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\CDB.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\CPaymentSystem.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\CQueueWrapper.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\CUtility.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\CXMLCapsule.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\ExactCommon.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\exactLogging.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\ExactPaymentInterface.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\ExactPaymentWrapper.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\ExactQueueManager.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\SqlDatabase.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\CHandsetModel.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\CDevice.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\CUser.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\VodacomRAB.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\Org.Mentalis.Security.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\iVeri.EnterpriseSC.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\ExactCommon.pdb
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\ExactQueueManager.pdb
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\bin\Debug\exactLogging.pdb
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\obj\Debug\exactmobile.ussdcommon.dll
+C:\Development\Projects\ExactMobile\USSDService\USSDCommon\obj\Debug\exactmobile.ussdcommon.pdb
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\exactmobile.ussdcommon.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\exactmobile.ussdcommon.pdb
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\CDB.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\CPaymentSystem.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\CQueueWrapper.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\CUtility.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\CXMLCapsule.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\ExactCommon.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\exactLogging.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\ExactPaymentInterface.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\ExactPaymentWrapper.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\ExactQueueManager.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\SqlDatabase.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\CHandsetModel.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\Microsoft.Web.Services2.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\CDevice.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\CUser.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\VodacomRAB.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.Unity.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\Org.Mentalis.Security.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\iVeri.EnterpriseSC.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\ExactCommon.pdb
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\ExactQueueManager.pdb
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\exactLogging.pdb
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\obj\Debug\exactmobile.ussdcommon.dll
+H:\Development\Projects\Exactmobile\USSDService\USSDCommon\obj\Debug\exactmobile.ussdcommon.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\exactmobile.ussdcommon.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\exactmobile.ussdcommon.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\USSD.BLL.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\USSD.Entities.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\NLog.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\MBDInternal.Data.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\USSD.DAL.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\MBDInternal.Utils.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\USSD.BLL.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\USSD.Entities.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\NLog.xml
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\USSD.DAL.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDCommon\obj\Debug\USSDCommon.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDCommon\obj\Debug\exactmobile.ussdcommon.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDCommon\obj\Debug\exactmobile.ussdcommon.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\Newtonsoft.Json.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDCommon\bin\Debug\Newtonsoft.Json.xml
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\exactmobile.ussdcommon.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\exactmobile.ussdcommon.pdb
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\CDB.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\CPaymentSystem.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\CQueueWrapper.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\CUtility.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\CXMLCapsule.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\ExactCommon.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\exactLogging.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\ExactPaymentInterface.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\ExactPaymentWrapper.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\ExactQueueManager.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\SqlDatabase.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\USSD.BLL.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\USSD.Entities.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\NLog.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\MBDInternal.Data.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\USSD.DAL.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\Microsoft.Web.Services2.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\VodacomRAB.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\Org.Mentalis.Security.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\CDevice.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\iVeri.EnterpriseSC.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\CUser.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\CHandsetModel.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\USSD.BLL.pdb
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\USSD.Entities.pdb
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\ExactCommon.pdb
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\exactLogging.pdb
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\ExactQueueManager.pdb
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\NLog.xml
+C:\Development\Backups\Source code\USSDService\USSDCommon\bin\Debug\USSD.DAL.pdb
+C:\Development\Backups\Source code\USSDService\USSDCommon\obj\Debug\USSDCommon.csprojResolveAssemblyReference.cache
+C:\Development\Backups\Source code\USSDService\USSDCommon\obj\Debug\exactmobile.ussdcommon.dll
+C:\Development\Backups\Source code\USSDService\USSDCommon\obj\Debug\exactmobile.ussdcommon.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\exactmobile.ussdcommon.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\exactmobile.ussdcommon.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\CDB.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\CPaymentSystem.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\CQueueWrapper.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\CUtility.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\CXMLCapsule.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\ExactCommon.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\exactLogging.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\ExactPaymentInterface.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\ExactPaymentWrapper.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\ExactQueueManager.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\SqlDatabase.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\USSD.BLL.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\USSD.Entities.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\NLog.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\MBDInternal.Data.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\USSD.DAL.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\Microsoft.Web.Services2.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\VodacomRAB.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\Org.Mentalis.Security.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\CDevice.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\iVeri.EnterpriseSC.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\CUser.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\CHandsetModel.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\USSD.BLL.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\USSD.Entities.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\ExactCommon.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\exactLogging.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\ExactQueueManager.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\NLog.xml
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\bin\Debug\USSD.DAL.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\obj\Debug\USSDCommon.csprojResolveAssemblyReference.cache
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\obj\Debug\exactmobile.ussdcommon.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDCommon\obj\Debug\exactmobile.ussdcommon.pdb
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\exactmobile.ussdcommon.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\exactmobile.ussdcommon.pdb
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\CDB.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\CPaymentSystem.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\CQueueWrapper.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\CUtility.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\CXMLCapsule.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\ExactCommon.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\exactLogging.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\ExactPaymentInterface.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\ExactPaymentWrapper.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\ExactQueueManager.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\SqlDatabase.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\USSD.BLL.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\USSD.Entities.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\NLog.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\MBDInternal.Data.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\USSD.DAL.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\Microsoft.Web.Services2.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\VodacomRAB.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\Org.Mentalis.Security.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\CDevice.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\iVeri.EnterpriseSC.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\CUser.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\CHandsetModel.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\USSD.BLL.pdb
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\USSD.Entities.pdb
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\ExactCommon.pdb
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\exactLogging.pdb
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\ExactQueueManager.pdb
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\NLog.xml
+C:\Development\Projects\Github\USSDService\USSDCommon\bin\Debug\USSD.DAL.pdb
+C:\Development\Projects\Github\USSDService\USSDCommon\obj\Debug\USSDCommon.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Github\USSDService\USSDCommon\obj\Debug\exactmobile.ussdcommon.dll
+C:\Development\Projects\Github\USSDService\USSDCommon\obj\Debug\exactmobile.ussdcommon.pdb

@@ -1,0 +1,21 @@
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDEntities\bin\Debug\USSD.Entities.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDEntities\bin\Debug\USSD.Entities.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDEntities\bin\Debug\MBDInternal.Data.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDEntities\bin\Debug\MBDInternal.Utils.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDEntities\obj\Debug\USSD.Entities.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDEntities\obj\Debug\USSD.Entities.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDEntities\obj\Debug\USSD.Entities.pdb
+C:\Development\Backups\Source code\USSDService\USSDEntities\bin\Debug\USSD.Entities.dll
+C:\Development\Backups\Source code\USSDService\USSDEntities\bin\Debug\USSD.Entities.pdb
+C:\Development\Backups\Source code\USSDService\USSDEntities\obj\Debug\USSD.Entities.dll
+C:\Development\Backups\Source code\USSDService\USSDEntities\obj\Debug\USSD.Entities.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDEntities\bin\Debug\USSD.Entities.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDEntities\bin\Debug\USSD.Entities.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDEntities\obj\Debug\USSD.Entities.csprojResolveAssemblyReference.cache
+C:\Development\Backups\Source code\USSDService - Copy\USSDEntities\obj\Debug\USSD.Entities.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDEntities\obj\Debug\USSD.Entities.pdb
+C:\Development\Projects\Github\USSDService\USSDEntities\bin\Debug\USSD.Entities.dll
+C:\Development\Projects\Github\USSDService\USSDEntities\bin\Debug\USSD.Entities.pdb
+C:\Development\Projects\Github\USSDService\USSDEntities\obj\Debug\USSD.Entities.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Github\USSDService\USSDEntities\obj\Debug\USSD.Entities.dll
+C:\Development\Projects\Github\USSDService\USSDEntities\obj\Debug\USSD.Entities.pdb

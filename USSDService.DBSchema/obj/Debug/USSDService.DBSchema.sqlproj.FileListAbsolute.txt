@@ -1,0 +1,19 @@
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService.DBSchema\bin\Debug\USSDService.DBSchema.dacpac
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService.DBSchema\bin\Debug\USSDService.DBSchema.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService.DBSchema\bin\Debug\USSDService.DBSchema.pdb
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService.DBSchema\obj\Debug\USSDService.DBSchema.dll
+C:\Development\Projects\Projects\Exactmobile\USSDService\USSDService.DBSchema\obj\Debug\USSDService.DBSchema.pdb
+C:\Development\Backups\Source code\USSDService\USSDService.DBSchema\bin\Debug\USSDService.DBSchema.dacpac
+C:\Development\Backups\Source code\USSDService\USSDService.DBSchema\bin\Debug\USSDService.DBSchema.dll
+C:\Development\Backups\Source code\USSDService\USSDService.DBSchema\bin\Debug\USSDService.DBSchema.pdb
+C:\Development\Backups\Source code\USSDService\USSDService.DBSchema\obj\Debug\Model.xml
+C:\Development\Backups\Source code\USSDService\USSDService.DBSchema\obj\Debug\refactor.xml
+C:\Development\Backups\Source code\USSDService\USSDService.DBSchema\obj\Debug\postdeploy.sql
+C:\Development\Backups\Source code\USSDService\USSDService.DBSchema\obj\Debug\predeploy.sql
+C:\Development\Backups\Source code\USSDService\USSDService.DBSchema\obj\Debug\USSDService.DBSchema.dll
+C:\Development\Backups\Source code\USSDService\USSDService.DBSchema\obj\Debug\USSDService.DBSchema.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDService.DBSchema\bin\Debug\USSDService.DBSchema.dacpac
+C:\Development\Backups\Source code\USSDService - Copy\USSDService.DBSchema\bin\Debug\USSDService.DBSchema.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService.DBSchema\bin\Debug\USSDService.DBSchema.pdb
+C:\Development\Backups\Source code\USSDService - Copy\USSDService.DBSchema\obj\Debug\USSDService.DBSchema.dll
+C:\Development\Backups\Source code\USSDService - Copy\USSDService.DBSchema\obj\Debug\USSDService.DBSchema.pdb
