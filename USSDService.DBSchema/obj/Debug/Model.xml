@@ -12,7 +12,7 @@
 		</CustomData>
 		<CustomData Category="Reference" Type="Assembly">
 			<Metadata Name="LogicalName" Value="USSDService.DBSchema.dll" />
-			<Metadata Name="FileName" Value="C:\DEVELOPMENT\BACKUPS\SOURCE CODE\USSDSERVICE\USSDSERVICE.DBSCHEMA\OBJ\DEBUG\USSDSERVICE.DBSCHEMA.DLL" />
+			<Metadata Name="FileName" Value="C:\DEVELOPMENTS\CUSTOMERS\USSDSERVICE\USSDSERVICE.DBSCHEMA\OBJ\DEBUG\USSDSERVICE.DBSCHEMA.DLL" />
 			<Metadata Name="AssemblyName" Value="USSDService.DBSchema" />
 			<Metadata Name="PermissionSet" Value="SAFE" />
 			<Metadata Name="Owner" Value="" />
@@ -20,7 +20,7 @@
 			<Metadata Name="IsVisible" Value="True" />
 			<Metadata Name="IsModelAware" Value="True" />
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
-			<Metadata Name="AssemblySymbolsName" Value="C:\Development\Backups\Source code\USSDService\USSDService.DBSchema\obj\Debug\USSDService.DBSchema.pdb" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Developments\Customers\USSDService\USSDService.DBSchema\obj\Debug\USSDService.DBSchema.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
 	</Header>
@@ -212,6 +212,52 @@
 				</Entry>
 			</Relationship>
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="12" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[Addresses].[Id]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[Addresses]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="13" />
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[Addresses]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Addresses].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="13" />
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[CommunicationTypes]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -748,7 +794,7 @@ END]]></Value>
 					<References Name="[dbo].[USSDMenus]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="13" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="14" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_HTTPTransactions_USSDCampaignId]">
 			<Relationship Name="Columns">
@@ -771,7 +817,7 @@ END]]></Value>
 					<References Name="[dbo].[USSDCampaigns]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="14" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="15" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_HTTPTransactions_USSDTransactionId]">
 			<Relationship Name="Columns">
@@ -794,7 +840,7 @@ END]]></Value>
 					<References Name="[dbo].[USSDTransactions]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="15" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="16" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_MenuTransactions_MobileNetworkID]">
 			<Relationship Name="Columns">
@@ -817,7 +863,7 @@ END]]></Value>
 					<References Name="[dbo].[MobileNetworks]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="16" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="17" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_MenuTransactions_USSDCampaignId]">
 			<Relationship Name="Columns">
@@ -840,7 +886,7 @@ END]]></Value>
 					<References Name="[dbo].[USSDCampaigns]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="17" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="18" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_MenuTransactions_USSDMenuId]">
 			<Relationship Name="Columns">
@@ -863,7 +909,7 @@ END]]></Value>
 					<References Name="[dbo].[USSDMenus]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="18" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="19" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_MenuTransactions_USSDTransactionId]">
 			<Relationship Name="Columns">
@@ -886,7 +932,7 @@ END]]></Value>
 					<References Name="[dbo].[USSDTransactions]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="19" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="20" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_USSDCampaigns_CommunicationTypeId]">
 			<Relationship Name="Columns">
@@ -909,7 +955,7 @@ END]]></Value>
 					<References Name="[dbo].[CommunicationTypes]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="20" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="21" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_USSDCampaigns_USSDNumberId]">
 			<Relationship Name="Columns">
@@ -932,7 +978,7 @@ END]]></Value>
 					<References Name="[dbo].[UssdNumbers]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="21" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="22" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_USSDTransactions_MobileNetworkId]">
 			<Relationship Name="Columns">
@@ -955,7 +1001,7 @@ END]]></Value>
 					<References Name="[dbo].[MobileNetworks]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="22" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="23" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_USSDTransactions_USSDCampaignId]">
 			<Relationship Name="Columns">
@@ -978,7 +1024,7 @@ END]]></Value>
 					<References Name="[dbo].[USSDCampaigns]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="23" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="24" />
 		</Element>
 		<Element Type="SqlForeignKeyConstraint" Name="[dbo].[FK_USSDTransactions_USSDNumberId]">
 			<Relationship Name="Columns">
@@ -1001,7 +1047,7 @@ END]]></Value>
 					<References Name="[dbo].[UssdNumbers]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="24" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="25" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[HTTPTransactions]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -1206,10 +1252,10 @@ END]]></Value>
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="25" />
-			<AttachedAnnotation Disambiguator="13" />
-			<AttachedAnnotation Disambiguator="15" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="26" />
 			<AttachedAnnotation Disambiguator="14" />
+			<AttachedAnnotation Disambiguator="16" />
+			<AttachedAnnotation Disambiguator="15" />
 		</Element>
 		<Element Type="SqlProcedure" Name="[dbo].[InsertHTTPTransaction]">
 			<Property Name="BodyScript">
@@ -2786,7 +2832,7 @@ END]]></Value>
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="26" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="27" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[MenuTransactions]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -2940,11 +2986,11 @@ END]]></Value>
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="27" />
-			<AttachedAnnotation Disambiguator="18" />
-			<AttachedAnnotation Disambiguator="17" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="28" />
 			<AttachedAnnotation Disambiguator="19" />
-			<AttachedAnnotation Disambiguator="16" />
+			<AttachedAnnotation Disambiguator="18" />
+			<AttachedAnnotation Disambiguator="20" />
+			<AttachedAnnotation Disambiguator="17" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[MobileNetworks]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -3007,7 +3053,7 @@ END]]></Value>
 					<References Name="[dbo].[USSDCampaigns]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="28" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="29" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_HTTPTransactions_Id]">
 			<Relationship Name="ColumnSpecifications">
@@ -3026,7 +3072,7 @@ END]]></Value>
 					<References Name="[dbo].[HTTPTransactions]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="25" />
+			<AttachedAnnotation Disambiguator="26" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_MenuOptions_Id]">
 			<Relationship Name="ColumnSpecifications">
@@ -3045,7 +3091,7 @@ END]]></Value>
 					<References Name="[dbo].[MenuOptions]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="26" />
+			<AttachedAnnotation Disambiguator="27" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_Menus_Id]">
 			<Relationship Name="ColumnSpecifications">
@@ -3064,7 +3110,7 @@ END]]></Value>
 					<References Name="[dbo].[USSDMenus]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="29" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="30" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_MenuTransactions_Id]">
 			<Relationship Name="ColumnSpecifications">
@@ -3083,7 +3129,7 @@ END]]></Value>
 					<References Name="[dbo].[MenuTransactions]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="27" />
+			<AttachedAnnotation Disambiguator="28" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_Users_Id]">
 			<Relationship Name="ColumnSpecifications">
@@ -3102,7 +3148,7 @@ END]]></Value>
 					<References Name="[dbo].[Users]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="30" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="31" />
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_USSDTransactions_Id]">
 			<Relationship Name="ColumnSpecifications">
@@ -3121,7 +3167,7 @@ END]]></Value>
 					<References Name="[dbo].[USSDTransactions]" />
 				</Entry>
 			</Relationship>
-			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="31" />
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="32" />
 		</Element>
 		<Element Type="SqlProcedure" Name="[dbo].[UpdateHTTPTransaction]">
 			<Property Name="BodyScript">
@@ -4019,7 +4065,7 @@ End]]></Value>
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="30" />
+			<AttachedAnnotation Disambiguator="31" />
 		</Element>
 		<Element Type="SqlProcedure" Name="[dbo].[usp_GetMenuItems]">
 			<Property Name="BodyScript">
@@ -4469,9 +4515,9 @@ SELECT TOP 1000
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="28" />
-			<AttachedAnnotation Disambiguator="20" />
+			<AttachedAnnotation Disambiguator="29" />
 			<AttachedAnnotation Disambiguator="21" />
+			<AttachedAnnotation Disambiguator="22" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[USSDMenus]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -4631,7 +4677,7 @@ SELECT TOP 1000
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="29" />
+			<AttachedAnnotation Disambiguator="30" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[UssdNumbers]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -4833,10 +4879,10 @@ SELECT TOP 1000
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
-			<AttachedAnnotation Disambiguator="31" />
-			<AttachedAnnotation Disambiguator="24" />
-			<AttachedAnnotation Disambiguator="22" />
+			<AttachedAnnotation Disambiguator="32" />
+			<AttachedAnnotation Disambiguator="25" />
 			<AttachedAnnotation Disambiguator="23" />
+			<AttachedAnnotation Disambiguator="24" />
 		</Element>
 	</Model>
 </DataSchemaModel>

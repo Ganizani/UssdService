@@ -31,3 +31,11 @@ C:\Development\Projects\Github\USSDService\USSD.DAL\bin\Release\NLog.xml
 C:\Development\Projects\Github\USSDService\USSD.DAL\obj\Release\USSD.DAL.csprojResolveAssemblyReference.cache
 C:\Development\Projects\Github\USSDService\USSD.DAL\obj\Release\USSD.DAL.dll
 C:\Development\Projects\Github\USSDService\USSD.DAL\obj\Release\USSD.DAL.pdb
+C:\Developments\Customers\USSDService\USSD.DAL\bin\Release\USSD.DAL.dll
+C:\Developments\Customers\USSDService\USSD.DAL\bin\Release\USSD.DAL.pdb
+C:\Developments\Customers\USSDService\USSD.DAL\bin\Release\NLog.dll
+C:\Developments\Customers\USSDService\USSD.DAL\bin\Release\NLog.xml
+C:\Developments\Customers\USSDService\USSD.DAL\obj\Release\USSD.DAL.csprojResolveAssemblyReference.cache
+C:\Developments\Customers\USSDService\USSD.DAL\obj\Release\USSD.DAL.csproj.CoreCompileInputs.cache
+C:\Developments\Customers\USSDService\USSD.DAL\obj\Release\USSD.DAL.dll
+C:\Developments\Customers\USSDService\USSD.DAL\obj\Release\USSD.DAL.pdb

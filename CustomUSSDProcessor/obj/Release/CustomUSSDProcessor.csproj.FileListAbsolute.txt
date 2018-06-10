@@ -23,3 +23,9 @@ C:\Development\Projects\Github\USSDService\USSDService\bin\Release\CustomUSSDPro
 C:\Development\Projects\Github\USSDService\CustomUSSDProcessor\obj\Release\CustomUSSDProcessor.csprojResolveAssemblyReference.cache
 C:\Development\Projects\Github\USSDService\CustomUSSDProcessor\obj\Release\CustomUSSDProcessor.dll
 C:\Development\Projects\Github\USSDService\CustomUSSDProcessor\obj\Release\CustomUSSDProcessor.pdb
+C:\Developments\Customers\USSDService\USSDService\bin\Release\CustomUSSDProcessor.dll
+C:\Developments\Customers\USSDService\USSDService\bin\Release\CustomUSSDProcessor.pdb
+C:\Developments\Customers\USSDService\CustomUSSDProcessor\obj\Release\CustomUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Developments\Customers\USSDService\CustomUSSDProcessor\obj\Release\CustomUSSDProcessor.csproj.CoreCompileInputs.cache
+C:\Developments\Customers\USSDService\CustomUSSDProcessor\obj\Release\CustomUSSDProcessor.dll
+C:\Developments\Customers\USSDService\CustomUSSDProcessor\obj\Release\CustomUSSDProcessor.pdb

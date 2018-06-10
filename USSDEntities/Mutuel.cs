@@ -12,7 +12,7 @@ namespace USSD.Entities
         public string mutuel_name { get; set; }
         public string mutuel_description { get; set; }
         public int commune_id { get; set; }
-
+        public int? address_id { get; set; }
         public decimal price { get; set; }
     }
 

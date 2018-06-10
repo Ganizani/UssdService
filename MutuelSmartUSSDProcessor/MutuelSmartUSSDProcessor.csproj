@@ -35,6 +35,7 @@
       <HintPath>..\..\..\..\Assemblies\3rdParty\10\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -49,6 +50,10 @@
     <Compile Include="TestData.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\USSD.BLL\USSD.BLL.csproj">
+      <Project>{2298CB8C-942A-4E66-BAE0-7D49DFCD8101}</Project>
+      <Name>USSD.BLL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\USSDCommon\USSDCommon.csproj">
       <Project>{d38714f6-166e-491f-ba02-9b3adf93aaef}</Project>
       <Name>USSDCommon</Name>

@@ -23,3 +23,9 @@ C:\Development\Backups\Source code\USSDService - Copy\USSDService\bin\Debug\Cust
 C:\Development\Backups\Source code\USSDService - Copy\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.csprojResolveAssemblyReference.cache
 C:\Development\Backups\Source code\USSDService - Copy\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.dll
 C:\Development\Backups\Source code\USSDService - Copy\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.pdb
+C:\Developments\Customers\USSDService\USSDService\bin\Debug\CustomUSSDProcessor.dll
+C:\Developments\Customers\USSDService\USSDService\bin\Debug\CustomUSSDProcessor.pdb
+C:\Developments\Customers\USSDService\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Developments\Customers\USSDService\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.dll
+C:\Developments\Customers\USSDService\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.pdb
+C:\Developments\Customers\USSDService\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.csproj.CoreCompileInputs.cache

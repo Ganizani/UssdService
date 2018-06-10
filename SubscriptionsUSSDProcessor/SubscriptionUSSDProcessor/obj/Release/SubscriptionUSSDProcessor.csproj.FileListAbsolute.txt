@@ -28,3 +28,10 @@ C:\Development\Projects\Github\USSDService\USSDService\bin\Release\SubscriptionU
 C:\Development\Projects\Github\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.csprojResolveAssemblyReference.cache
 C:\Development\Projects\Github\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.dll
 C:\Development\Projects\Github\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.pdb
+C:\Developments\Customers\USSDService\USSDService\bin\Release\SubscriptionUSSDProcessor.dll.config
+C:\Developments\Customers\USSDService\USSDService\bin\Release\SubscriptionUSSDProcessor.dll
+C:\Developments\Customers\USSDService\USSDService\bin\Release\SubscriptionUSSDProcessor.pdb
+C:\Developments\Customers\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Developments\Customers\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.csproj.CoreCompileInputs.cache
+C:\Developments\Customers\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.dll
+C:\Developments\Customers\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.pdb

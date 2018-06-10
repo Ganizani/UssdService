@@ -87,5 +87,6 @@
     <Build Include="dbo\Stored Procedures\FetchMenuTransaction.sql" />
     <Build Include="dbo\Stored Procedures\ListMenuTransactions.sql" />
     <Build Include="dbo\Stored Procedures\usp_GetMenuItems.sql" />
+    <Build Include="dbo\Tables\Addresses.sql" />
   </ItemGroup>
 </Project>

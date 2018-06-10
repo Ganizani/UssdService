@@ -23,3 +23,9 @@ C:\Development\Projects\Github\USSDService\USSDService\bin\Release\DoubleOptSubs
 C:\Development\Projects\Github\USSDService\DoubleOptSubscriptionUSSD\obj\Release\DoubleOptSubscriptionUSSD.csprojResolveAssemblyReference.cache
 C:\Development\Projects\Github\USSDService\DoubleOptSubscriptionUSSD\obj\Release\DoubleOptSubscriptionUSSD.dll
 C:\Development\Projects\Github\USSDService\DoubleOptSubscriptionUSSD\obj\Release\DoubleOptSubscriptionUSSD.pdb
+C:\Developments\Customers\USSDService\USSDService\bin\Release\DoubleOptSubscriptionUSSD.dll
+C:\Developments\Customers\USSDService\USSDService\bin\Release\DoubleOptSubscriptionUSSD.pdb
+C:\Developments\Customers\USSDService\DoubleOptSubscriptionUSSD\obj\Release\DoubleOptSubscriptionUSSD.csprojResolveAssemblyReference.cache
+C:\Developments\Customers\USSDService\DoubleOptSubscriptionUSSD\obj\Release\DoubleOptSubscriptionUSSD.csproj.CoreCompileInputs.cache
+C:\Developments\Customers\USSDService\DoubleOptSubscriptionUSSD\obj\Release\DoubleOptSubscriptionUSSD.dll
+C:\Developments\Customers\USSDService\DoubleOptSubscriptionUSSD\obj\Release\DoubleOptSubscriptionUSSD.pdb

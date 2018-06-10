@@ -22,3 +22,8 @@ C:\Development\Projects\Github\USSDService\USSDService.DBSchema\bin\Release\USSD
 C:\Development\Projects\Github\USSDService\USSDService.DBSchema\bin\Release\USSDService.DBSchema.pdb
 C:\Development\Projects\Github\USSDService\USSDService.DBSchema\obj\Release\USSDService.DBSchema.dll
 C:\Development\Projects\Github\USSDService\USSDService.DBSchema\obj\Release\USSDService.DBSchema.pdb
+C:\Developments\Customers\USSDService\USSDService.DBSchema\bin\Release\USSDService.DBSchema.dacpac
+C:\Developments\Customers\USSDService\USSDService.DBSchema\bin\Release\USSDService.DBSchema.dll
+C:\Developments\Customers\USSDService\USSDService.DBSchema\bin\Release\USSDService.DBSchema.pdb
+C:\Developments\Customers\USSDService\USSDService.DBSchema\obj\Release\USSDService.DBSchema.dll
+C:\Developments\Customers\USSDService\USSDService.DBSchema\obj\Release\USSDService.DBSchema.pdb
