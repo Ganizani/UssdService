@@ -34,3 +34,14 @@ C:\Development\Backups\Source code\USSDService - Copy\USSD.BLL\bin\Release\NLog.
 C:\Development\Backups\Source code\USSDService - Copy\USSD.BLL\obj\Release\USSD.BLL.csprojResolveAssemblyReference.cache
 C:\Development\Backups\Source code\USSDService - Copy\USSD.BLL\obj\Release\USSD.BLL.dll
 C:\Development\Backups\Source code\USSDService - Copy\USSD.BLL\obj\Release\USSD.BLL.pdb
+C:\Development\Projects\Github\USSDService\USSD.BLL\bin\Release\USSD.BLL.dll
+C:\Development\Projects\Github\USSDService\USSD.BLL\bin\Release\USSD.BLL.pdb
+C:\Development\Projects\Github\USSDService\USSD.BLL\bin\Release\NLog.dll
+C:\Development\Projects\Github\USSDService\USSD.BLL\bin\Release\USSD.DAL.dll
+C:\Development\Projects\Github\USSDService\USSD.BLL\bin\Release\USSD.Entities.dll
+C:\Development\Projects\Github\USSDService\USSD.BLL\bin\Release\USSD.DAL.pdb
+C:\Development\Projects\Github\USSDService\USSD.BLL\bin\Release\USSD.Entities.pdb
+C:\Development\Projects\Github\USSDService\USSD.BLL\bin\Release\NLog.xml
+C:\Development\Projects\Github\USSDService\USSD.BLL\obj\Release\USSD.BLL.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Github\USSDService\USSD.BLL\obj\Release\USSD.BLL.dll
+C:\Development\Projects\Github\USSDService\USSD.BLL\obj\Release\USSD.BLL.pdb

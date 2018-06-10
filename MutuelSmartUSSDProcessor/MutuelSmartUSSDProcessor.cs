@@ -140,7 +140,11 @@ namespace exactmobile.ussdservice.processors
                         if (Helper.Message == "2" && Session.LastMenuAccessed.MenuId == (int)CampaignMenu.CancelSubscribeMenu)
 
                         {
-                            return string.Format("request# Bienvenu a la Mutuelle Smart!\n\n1)Services\n2)Balalance\n3)Se desabonner\n4)Guide");
+                            return GetHomeScreen();
+                        }
+                        else
+                        {
+                            return GetHomeScreen();
                         }
                     }
 

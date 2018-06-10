@@ -186,3 +186,46 @@ C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\bin\Release\Mic
 C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\obj\Release\XMLRPCTest.csprojResolveAssemblyReference.cache
 C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\obj\Release\XMLRPCTest.exe
 C:\Development\Backups\Source code\USSDService - Copy\XMLRPCTest\obj\Release\XMLRPCTest.pdb
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\XMLRPCTest.exe.config
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\XMLRPCTest.exe
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\XMLRPCTest.pdb
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\exactmobile.ussdcommon.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\CPaymentSystem.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\CDB.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\CQueueWrapper.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\CXMLCapsule.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\ExactPaymentWrapper.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\USSD.Entities.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\ExactCommon.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\CUtility.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\Newtonsoft.Json.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\USSD.BLL.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\exactLogging.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\Microsoft.Practices.Unity.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\Microsoft.Web.Services2.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\VodacomRAB.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\Org.Mentalis.Security.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\CDevice.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\iVeri.EnterpriseSC.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\MBDInternal.Data.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\CUser.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\NLog.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\USSD.DAL.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\CHandsetModel.dll
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\exactmobile.ussdcommon.pdb
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\USSD.Entities.pdb
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\ExactCommon.pdb
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\USSD.BLL.pdb
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\exactLogging.pdb
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\NLog.xml
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\USSD.DAL.pdb
+C:\Development\Projects\Github\USSDService\XMLRPCTest\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Development\Projects\Github\USSDService\XMLRPCTest\obj\Release\XMLRPCTest.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Github\USSDService\XMLRPCTest\obj\Release\XMLRPCTest.exe
+C:\Development\Projects\Github\USSDService\XMLRPCTest\obj\Release\XMLRPCTest.pdb

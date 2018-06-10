@@ -22,3 +22,9 @@ C:\Development\Backups\Source code\USSDService - Copy\USSDService\bin\Release\Su
 C:\Development\Backups\Source code\USSDService - Copy\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.csprojResolveAssemblyReference.cache
 C:\Development\Backups\Source code\USSDService - Copy\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.dll
 C:\Development\Backups\Source code\USSDService - Copy\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.pdb
+C:\Development\Projects\Github\USSDService\USSDService\bin\Release\SubscriptionUSSDProcessor.dll.config
+C:\Development\Projects\Github\USSDService\USSDService\bin\Release\SubscriptionUSSDProcessor.dll
+C:\Development\Projects\Github\USSDService\USSDService\bin\Release\SubscriptionUSSDProcessor.pdb
+C:\Development\Projects\Github\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Github\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.dll
+C:\Development\Projects\Github\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Release\SubscriptionUSSDProcessor.pdb

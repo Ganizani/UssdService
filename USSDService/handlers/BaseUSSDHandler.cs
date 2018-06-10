@@ -187,8 +187,13 @@ namespace exactmobile.ussdservice.handlers
                     ussdNumberString = ussdNumberString.Substring(0, lastHash);
                 lastHash = ussdNumberString.IndexOf("%23");
                 if (lastStar < 0 && lastHash >= 0)
-                    ussdNumberString = ussdNumberString.Substring(0, lastHash);
-                USSDNumber = int.Parse(ussdNumberString);
+                {
+                    try
+                    {
+                        ussdNumberString = ussdNumberString.Substring(0, lastHash);
+                    } catch { }
+                }
+                int.TryParse(ussdNumberString, out USSDNumber);
                 USSDSessionManager.Instance.EndSession(Session.MSISDN);
                 Session = USSDSessionManager.Instance.CreateSession(MSISDN);
                 Session.USSDNumber = USSDNumber;

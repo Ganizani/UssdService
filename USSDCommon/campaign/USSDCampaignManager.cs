@@ -39,11 +39,18 @@ namespace exactmobile.ussdservice.common.campaign
 
             //}
             //var models = Logic.Instance.ClaimStatuses.ListFiltered(new USSD.Entities.ClaimStatus { });
+            try
+            {
+                USSD.Entities.USSDCampaign model = Logic.Instance.Campaigns.ListFiltered(new USSD.Entities.USSDCampaign { FilterUSSDNumber = ussdNumber.ToString() }).FirstOrDefault();
+                USSDCampaign campaign = new USSDCampaign(model.Id, model.ProcessorType, model.BackButton, model.CampaignStartDate ?? DateTime.MinValue, model.CampaignEndDate ?? DateTime.MaxValue, model.USSDNumberId);
+                cacheList.Add(ussdNumber, campaign);
+                return campaign;
+            }
+            catch(Exception exp) {
+                exactmobile.components.logging.LogManager.LogStatus("Error getting the campaign: {0}", exp.Message ) ;
 
-            USSD.Entities.USSDCampaign model = Logic.Instance.Campaigns.ListFiltered(new USSD.Entities.USSDCampaign { FilterUSSDNumber = ussdNumber.ToString()  }).FirstOrDefault();
-            USSDCampaign campaign = new USSDCampaign(model.Id , model.ProcessorType, model.BackButton, model.CampaignStartDate??DateTime.MinValue, model.CampaignEndDate??DateTime.MaxValue, model.USSDNumberId);
-            cacheList.Add(ussdNumber, campaign);
-            return campaign;
+                return null;
+            }
         }
 
         public static bool RefreshCampaignProperties(ref USSDCampaign campaign)

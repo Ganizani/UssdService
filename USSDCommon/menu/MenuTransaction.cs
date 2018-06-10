@@ -15,23 +15,32 @@ namespace exactmobile.ussdservice.common.menu
         }
         
         public static bool Add(int menuIDRef, int USSDCampaignIDRef, long USSDTransactionIDRef, int mobileNetworkID, string mobileNumber, string enteredSelectionValue,int MenuSection, out long transactionID)
-        {          
-            
+        {
             transactionID = -1;
-            var model = new USSD.Entities.MenuTransaction {
-                USSDMenuId = menuIDRef,
-                USSDCampaignId = USSDCampaignIDRef,
-                USSDTransactionId = USSDTransactionIDRef,
-                MobileNetworkID = mobileNetworkID ==0? 1:mobileNetworkID,
-                MobileNumber = mobileNumber,
-                CreateDate = DateTime.Now,
-                EnteredSelectionValue = enteredSelectionValue,
-                MenuSection = MenuSection
-            };
-            Logic.Instance.MenuTransactions.Insert(model);
-            transactionID = model.Id;
-            
-            return (transactionID >= 1);
+            try
+            {
+                
+                var model = new USSD.Entities.MenuTransaction
+                {
+                    USSDMenuId = menuIDRef,
+                    USSDCampaignId = USSDCampaignIDRef,
+                    USSDTransactionId = USSDTransactionIDRef,
+                    MobileNetworkID = mobileNetworkID == 0 ? 1 : mobileNetworkID,
+                    MobileNumber = mobileNumber,
+                    CreateDate = DateTime.Now,
+                    EnteredSelectionValue = enteredSelectionValue,
+                    MenuSection = MenuSection
+                };
+                Logic.Instance.MenuTransactions.Insert(model);
+                transactionID = model.Id;
+
+                return (transactionID >= 1);
+            }
+            catch(Exception exp) {
+               exactmobile.components.logging.LogManager.LogStatus("SQL Error: {0}", exp.Message ) ;
+
+            }
+            return false;
         }
     }
 }

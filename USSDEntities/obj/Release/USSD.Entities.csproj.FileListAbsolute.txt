@@ -15,3 +15,8 @@ C:\Development\Backups\Source code\USSDService - Copy\USSDEntities\bin\Release\U
 C:\Development\Backups\Source code\USSDService - Copy\USSDEntities\obj\Release\USSD.Entities.csprojResolveAssemblyReference.cache
 C:\Development\Backups\Source code\USSDService - Copy\USSDEntities\obj\Release\USSD.Entities.dll
 C:\Development\Backups\Source code\USSDService - Copy\USSDEntities\obj\Release\USSD.Entities.pdb
+C:\Development\Projects\Github\USSDService\USSDEntities\bin\Release\USSD.Entities.dll
+C:\Development\Projects\Github\USSDService\USSDEntities\bin\Release\USSD.Entities.pdb
+C:\Development\Projects\Github\USSDService\USSDEntities\obj\Release\USSD.Entities.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Github\USSDService\USSDEntities\obj\Release\USSD.Entities.dll
+C:\Development\Projects\Github\USSDService\USSDEntities\obj\Release\USSD.Entities.pdb
