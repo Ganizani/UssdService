@@ -47,9 +47,9 @@ namespace exactmobile.ussdservice.common.campaign
                 return campaign;
             }
             catch(Exception exp) {
-                exactmobile.components.logging.LogManager.LogStatus("Error getting the campaign for ussdNumber {1} \n\n Error Messge : {0}", exp.Message , ussdNumber ) ;
-                throw new Exception("notify# le shortcode est incorrect! ");
-                
+                exactmobile.components.logging.LogManager.LogStatus("Error getting the campaign: {0}", exp.Message ) ;
+
+                return null;
             }
         }
 

@@ -81,7 +81,8 @@ namespace exactmobile.ussdservice.common.session
         {
             while (running)
             {
-                List<KeyValuePair<String, USSDSession>> sessionsToRemove = cache.Where(c => DateTime.Now.Subtract(c.Value.LastAccess).TotalMilliseconds > sessionTimeout).ToList();
+                var toRemove = cache.Where(c => DateTime.Now.Subtract(c.Value.LastAccess).TotalMilliseconds > sessionTimeout).ToList();
+                List<KeyValuePair<String, USSDSession>> sessionsToRemove = toRemove;
                 foreach (KeyValuePair<String, USSDSession> session in sessionsToRemove)
                     EndSession(session.Value.MSISDN);
                 Thread.Sleep(5000);

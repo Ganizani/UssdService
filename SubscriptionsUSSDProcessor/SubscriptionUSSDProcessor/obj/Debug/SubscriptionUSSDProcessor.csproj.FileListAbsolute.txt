@@ -34,4 +34,3 @@ C:\Developments\Customers\USSDService\USSDService\bin\Debug\SubscriptionUSSDProc
 C:\Developments\Customers\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.csprojResolveAssemblyReference.cache
 C:\Developments\Customers\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.dll
 C:\Developments\Customers\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.pdb
-C:\Developments\Customers\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.csproj.CoreCompileInputs.cache

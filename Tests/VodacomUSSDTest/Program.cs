@@ -56,7 +56,7 @@ namespace VodacomUSSDTest
                 //using (HttpResponseMessage response = await client.GetAsync(page))
                 //using (HttpContent content = response.Content)
                 {
-                    client.BaseAddress = new Uri("http://localhost:8008/Vodacom/");
+                    client.BaseAddress = new Uri("http://127.0.0.1:8008/Vodacom/");
                     String mobileNumber = "243816489909";
                     String requestData = string.Format("<msg><msisdn>{0}</msisdn><sessionid>38679</sessionid><request type=\"1\">{1}</request></msg>", mobileNumber, value);
                     Byte[] requestBytes = ASCIIEncoding.ASCII.GetBytes(requestData);

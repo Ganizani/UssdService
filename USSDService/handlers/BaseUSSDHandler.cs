@@ -87,7 +87,7 @@ namespace exactmobile.ussdservice.handlers
         }
 
         public virtual void Initialize(String requestData, USSDHandlerRequestType.RequestTypes inputRequestType, out Boolean isTimeout, out Boolean isInvalid)
-        {
+        4{
             Dictionary<String, Object> values = DoBeforeInitialize(requestData, inputRequestType);
             try
             {
@@ -163,7 +163,7 @@ namespace exactmobile.ussdservice.handlers
 
             if (String.IsNullOrEmpty(USSDString))
             {
-                throw new Exception("notify# le shortcode est vide! ");
+                throw new Exception("notify# votre choix n'est pas correcte! ");
             }
 
             if (USSDString.ToUpper() == "USER+TIMEOUT" || requestData.ToUpper().Contains("PDU=\"ABORT\""))

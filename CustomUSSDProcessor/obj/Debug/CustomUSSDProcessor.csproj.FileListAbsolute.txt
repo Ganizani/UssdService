@@ -28,4 +28,3 @@ C:\Developments\Customers\USSDService\USSDService\bin\Debug\CustomUSSDProcessor.
 C:\Developments\Customers\USSDService\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.csprojResolveAssemblyReference.cache
 C:\Developments\Customers\USSDService\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.dll
 C:\Developments\Customers\USSDService\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.pdb
-C:\Developments\Customers\USSDService\CustomUSSDProcessor\obj\Debug\CustomUSSDProcessor.csproj.CoreCompileInputs.cache

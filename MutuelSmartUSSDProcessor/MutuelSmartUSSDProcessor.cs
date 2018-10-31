@@ -19,8 +19,8 @@ namespace exactmobile.ussdservice.processors
 {
     public class MutuelSmartUSSDProcessor : BaseUSSDProcessor, IUSSDProcessor
     {
-        private const string YES_TO_SUBSCRIBE = "notify# Thank you for subscribing to mutuelle smart, you will receive an SMS short with more info.";
-        private const string NO_TO_SUBSCRIBE = "notify# You are currently not subscribed to mutuelle smart!";
+        private const string YES_TO_SUBSCRIBE = "notify# Merci pour votre abonnement a nos services. Vous recevrez un SMS dans quelques instants";
+        private const string NO_TO_SUBSCRIBE = "notify# vous n'etes pas abonne a la mutuelle smart!";
         private const string CONFIRMATION_SUCCESS = "notify# Bravo! ";
         private  string NOT_ACTIVATED = $"Vous ne vous etes pas encore presente au centre d'identification:##Address## pour activer votre compte ";
         private const string CONFIRMATION_ERROR = "notify# Oops le code est invalide!";
@@ -167,7 +167,7 @@ namespace exactmobile.ussdservice.processors
                 string BackButton = currentMenu_Back.Name;
                 string data = null;
                 string selection = Helper.Message;
-                //Choix de la province
+
                 if (Helper.Message == "1" && Session.LastMenuAccessed.MenuId == 1 || ((Helper.Message == "10" || Helper.Message == "0") && Session.LastMenuAccessed.MenuId == (int)CampaignMenu.ProvinceSelection)
                     )
                 {
@@ -191,7 +191,6 @@ namespace exactmobile.ussdservice.processors
                     return "request# " + data;
 
                 }
-                //choix de la cite
                 else if (((Helper.Message == "10" || Helper.Message == "0") && Session.LastMenuAccessed.MenuId == (int)CampaignMenu.CitySelection) || (Session.LastMenuAccessed.MenuId == (int)CampaignMenu.ProvinceSelection))
                 {
                     MenuItem currentMenu = new MenuItem();
@@ -225,11 +224,8 @@ namespace exactmobile.ussdservice.processors
                     return "request# " + data;
 
                 }
-                //choix de la commune
                 else if (((Helper.Message == "10" || Helper.Message == "0") && Session.LastMenuAccessed.MenuId == (int)CampaignMenu.CommuneSelection) || (Session.LastMenuAccessed.MenuId == (int)CampaignMenu.CitySelection))
                 {
-
-                 
                     MenuItem currentMenu = new MenuItem();
                     string results = "";
                     if (Session["SelectedCity"] == null)
@@ -261,10 +257,8 @@ namespace exactmobile.ussdservice.processors
                     return "request# " + data;
 
                 }
-                //choix de la commune
                 else if (((Helper.Message == "10" || Helper.Message == "0") && Session.LastMenuAccessed.MenuId == (int)CampaignMenu.MutuelSelection) || (Session.LastMenuAccessed.MenuId == (int)CampaignMenu.CommuneSelection))
                 {
-                 
                     MenuItem currentMenu = new MenuItem();
                     string results = "";
                     if (Session["SelectedCommune"] == null)
@@ -297,7 +291,6 @@ namespace exactmobile.ussdservice.processors
                     return "request# " + data;
 
                 }
-                //choix de la mutuelle
                 else if (Session.LastMenuAccessed.MenuId == (int)CampaignMenu.MutuelSelection)
 
                 {
@@ -317,7 +310,6 @@ namespace exactmobile.ussdservice.processors
                     return data;
 
                 }
-                //abonnement
                 else if (Session.LastMenuAccessed.MenuId == (int)CampaignMenu.SubscriptionConfirmation)
 
                 {
@@ -344,7 +336,7 @@ namespace exactmobile.ussdservice.processors
                             
                         });
                         //return data;// -- YES_TO_SUBSCRIBE;
-                        return "notify# " + data;
+                        return "notify# " + YES_TO_SUBSCRIBE;
                     }
                     else
                     {
@@ -804,13 +796,6 @@ namespace exactmobile.ussdservice.processors
             return data;
         }
 
-        private string GoToPrevivousPage()
-        {
-            MenuItem currentMenu = new MenuItem();
-            var data = Session.LastMenuAccessed.DisplayData + " \n\n" + Menu.ShowMenu(Session.LastMenuAccessed.MenuId, Session.LastMenuAccessed.MenuId, ref currentMenu);
-            Session.LastMenuAccessed = Session.LastMenuAccessed;
-            return data;
-        }
-
+        
     }
 }
