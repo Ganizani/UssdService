@@ -87,7 +87,7 @@ namespace exactmobile.ussdservice.handlers
         }
 
         public virtual void Initialize(String requestData, USSDHandlerRequestType.RequestTypes inputRequestType, out Boolean isTimeout, out Boolean isInvalid)
-        {
+        4{
             Dictionary<String, Object> values = DoBeforeInitialize(requestData, inputRequestType);
             try
             {
