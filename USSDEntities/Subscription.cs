@@ -21,7 +21,12 @@ public class Subscription
         public int subscription_service_id { get; set; }
 
     }
-
+    public class SubscriptionResult
+    {
+        public int status { get; set; }
+        public string message { get; set; }
+        public int createdSubscriptionId { get; set; }
+    }
     public class Subscriptions
     {
         public int status { get; set; }

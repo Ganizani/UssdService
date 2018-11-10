@@ -17,3 +17,8 @@ C:\Development\Backups\Source code\USSDService - Copy\USSDService.DBSchema\bin\D
 C:\Development\Backups\Source code\USSDService - Copy\USSDService.DBSchema\bin\Debug\USSDService.DBSchema.pdb
 C:\Development\Backups\Source code\USSDService - Copy\USSDService.DBSchema\obj\Debug\USSDService.DBSchema.dll
 C:\Development\Backups\Source code\USSDService - Copy\USSDService.DBSchema\obj\Debug\USSDService.DBSchema.pdb
+C:\Developments\Customers\USSDService\USSDService.DBSchema\bin\Debug\USSDService.DBSchema.dacpac
+C:\Developments\Customers\USSDService\USSDService.DBSchema\bin\Debug\USSDService.DBSchema.dll
+C:\Developments\Customers\USSDService\USSDService.DBSchema\bin\Debug\USSDService.DBSchema.pdb
+C:\Developments\Customers\USSDService\USSDService.DBSchema\obj\Debug\USSDService.DBSchema.dll
+C:\Developments\Customers\USSDService\USSDService.DBSchema\obj\Debug\USSDService.DBSchema.pdb

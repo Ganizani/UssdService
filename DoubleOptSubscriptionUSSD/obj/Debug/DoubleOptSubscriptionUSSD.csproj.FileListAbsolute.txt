@@ -23,3 +23,8 @@ C:\Development\Backups\Source code\USSDService - Copy\USSDService\bin\Debug\Doub
 C:\Development\Backups\Source code\USSDService - Copy\DoubleOptSubscriptionUSSD\obj\Debug\DoubleOptSubscriptionUSSD.csprojResolveAssemblyReference.cache
 C:\Development\Backups\Source code\USSDService - Copy\DoubleOptSubscriptionUSSD\obj\Debug\DoubleOptSubscriptionUSSD.dll
 C:\Development\Backups\Source code\USSDService - Copy\DoubleOptSubscriptionUSSD\obj\Debug\DoubleOptSubscriptionUSSD.pdb
+C:\Developments\Customers\USSDService\USSDService\bin\Debug\DoubleOptSubscriptionUSSD.dll
+C:\Developments\Customers\USSDService\USSDService\bin\Debug\DoubleOptSubscriptionUSSD.pdb
+C:\Developments\Customers\USSDService\DoubleOptSubscriptionUSSD\obj\Debug\DoubleOptSubscriptionUSSD.csprojResolveAssemblyReference.cache
+C:\Developments\Customers\USSDService\DoubleOptSubscriptionUSSD\obj\Debug\DoubleOptSubscriptionUSSD.dll
+C:\Developments\Customers\USSDService\DoubleOptSubscriptionUSSD\obj\Debug\DoubleOptSubscriptionUSSD.pdb

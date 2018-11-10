@@ -9,6 +9,7 @@ using Microsoft.Practices.EnterpriseLibrary.Data;
 using System.Net.Http;
 using Newtonsoft.Json;
 using System.Net;
+using USSD.Entities;
 
 namespace exactmobile.ussdcommon.utility
 {
@@ -291,7 +292,12 @@ namespace exactmobile.ussdcommon.utility
                     cons.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
                     cons.DefaultRequestHeaders.Add("x-api-key", System.Configuration.ConfigurationManager.AppSettings["SMS-Api-key"].ToString());
                     break;
-                    
+                case "SubscriptionAPI":
+                    cons.BaseAddress = new Uri(System.Configuration.ConfigurationManager.AppSettings["SubscriptionAPI"].ToString());
+                    cons.DefaultRequestHeaders.Accept.Clear();
+                    cons.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+                    break;
+
                 default:
                     cons.BaseAddress = new Uri(System.Configuration.ConfigurationManager.AppSettings["MutuelleSmartAPI"].ToString());
                     cons.DefaultRequestHeaders.Accept.Clear();
@@ -330,5 +336,36 @@ namespace exactmobile.ussdcommon.utility
             return new Tuple<bool, string>(false, "failed to subscribe");
 
         }
+
+        public static bool SendSubscriptionRequestToAlain(SubscriptionRequest model)
+        {
+            var client = ussdcommon.utility.CommonUtility.GetHttpConnection("SubscriptionAPI");
+            var json = JsonConvert.SerializeObject(model);
+            var content = new StringContent(json.ToString(), Encoding.UTF8, "application/json");
+            var URL = new Uri(client.BaseAddress, "");
+
+            using (client)
+            {
+                try
+                {
+                    var result = client.PostAsync(URL, content).Result;
+                    if (result.StatusCode == HttpStatusCode.OK)
+                    {
+
+                        return true;
+                    }
+
+                }
+                catch (Exception exp)
+                {
+                    return false;
+
+                }
+            }
+            return false;
+
+        }
+
+
     }
 }

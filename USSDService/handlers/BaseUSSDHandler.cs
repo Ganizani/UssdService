@@ -8,6 +8,7 @@ using exactmobile.ussdservice.common.campaign;
 using exactmobile.ussdservice.common.session;
 using exactmobile.ussdservice.common.handlers;
 using System.Web;
+using exactmobile.components.logging;
 
 namespace exactmobile.ussdservice.handlers
 {
@@ -113,26 +114,34 @@ namespace exactmobile.ussdservice.handlers
 
         public virtual String ProcessRequest(String requestData)
         {
-            if (Session.GetProcessor(this as IUSSDHandler) != null)
+            try
             {
-                Session.GetProcessor(this as IUSSDHandler).Session = Session;
-                return Session.GetProcessor(this as IUSSDHandler).ProcessRequest(requestData);
-            }
-            else
-            {
-                String result = String.Empty;
-                if (Session.LastMenu == null)
+                if (Session.GetProcessor(this as IUSSDHandler) != null)
                 {
-                    Session.LastMenu = menuManager.Menu.First();
-                    result = menuManager.BuildMenu(Session.LastMenuItem.MenuItemID);
+                    Session.GetProcessor(this as IUSSDHandler).Session = Session;
+                    return Session.GetProcessor(this as IUSSDHandler).ProcessRequest(requestData);
                 }
                 else
                 {
-                    UssdMenu lastMenu;
-                    result = menuManager.BuildMenu(Session.LastMenu.MenuID, USSDString, out lastMenu);
-                    Session.LastMenu = lastMenu;
+                    String result = String.Empty;
+                    if (Session.LastMenu == null)
+                    {
+                        Session.LastMenu = menuManager.Menu.First();
+                        result = menuManager.BuildMenu(Session.LastMenuItem.MenuItemID);
+                    }
+                    else
+                    {
+                        UssdMenu lastMenu;
+                        result = menuManager.BuildMenu(Session.LastMenu.MenuID, USSDString, out lastMenu);
+                        Session.LastMenu = lastMenu;
+                    }
+                    return result;
                 }
-                return result;
+            }
+            catch(Exception exp)
+            {
+                LogManager.LogError(exp);
+                throw new Exception("Veiullez essayer plutard");
             }
         }
         #endregion
@@ -152,6 +161,11 @@ namespace exactmobile.ussdservice.handlers
             isInvalid = false;
             if (String.IsNullOrEmpty(MSISDN)) throw new Exception("Invalid request. No MSISDN Specified");
 
+            if (String.IsNullOrEmpty(USSDString))
+            {
+                throw new Exception("notify# votre choix n'est pas correcte! ");
+            }
+
             if (USSDString.ToUpper() == "USER+TIMEOUT" || requestData.ToUpper().Contains("PDU=\"ABORT\""))
             {
                 isTimeout = true;
@@ -166,6 +180,10 @@ namespace exactmobile.ussdservice.handlers
                 addTransaction = true;
             }
 
+            if(USSDString.ToLower().Contains("continue")||string.IsNullOrEmpty(USSDString))
+            {
+                throw new Exception("notify# votre choix n'est pas correcte! ");
+            }
             if (Session.USSDNumber == null) // || (!String.IsNullOrEmpty(USSDString.Trim()) && USSDString.Contains("*120*")))
             {
 
@@ -187,15 +205,22 @@ namespace exactmobile.ussdservice.handlers
                     ussdNumberString = ussdNumberString.Substring(0, lastHash);
                 lastHash = ussdNumberString.IndexOf("%23");
                 if (lastStar < 0 && lastHash >= 0)
-                    ussdNumberString = ussdNumberString.Substring(0, lastHash);
-                USSDNumber = int.Parse(ussdNumberString);
+                {
+                    try
+                    {
+                        ussdNumberString = ussdNumberString.Substring(0, lastHash);
+                    }
+                    catch { }
+                }
+                int.TryParse(ussdNumberString, out USSDNumber);
                 USSDSessionManager.Instance.EndSession(Session.MSISDN);
                 Session = USSDSessionManager.Instance.CreateSession(MSISDN);
                 Session.USSDNumber = USSDNumber;
             }
             else
+            {
                 USSDNumber = Session.USSDNumber.Value;
-
+            }
             if (Session.Campaign == null)
                 Session.Campaign = USSDCampaignManager.GetCampaignID(USSDNumber);
 

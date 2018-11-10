@@ -193,17 +193,22 @@ namespace exactmobile.ussdservice.common.processors
             {
                 MenuSection = 0; //Duplicate 
             }
-           
 
 
 
 
-            if (MenuTransaction.Add(args.RequestedMenuID, Session.Campaign.CampaignID, Session.USSDTransactionID, Session.MobileNetworkID, Session.MSISDN, enteredSelectionValue, MenuSection, out menuTransactionID))
-                Session[BaseUSSDProcessor.CurrentMenuTransactionIDKey] = menuTransactionID;
-            else
+            try
+            {
+                if (MenuTransaction.Add(args.RequestedMenuID, Session.Campaign.CampaignID, Session.USSDTransactionID, Session.MobileNetworkID, Session.MSISDN, enteredSelectionValue, MenuSection, out menuTransactionID))
+                    Session[BaseUSSDProcessor.CurrentMenuTransactionIDKey] = menuTransactionID;
+                else
+                    Session[BaseUSSDProcessor.CurrentMenuTransactionIDKey] = -1;
+
+            }
+            catch {
                 Session[BaseUSSDProcessor.CurrentMenuTransactionIDKey] = -1;
-
-          
+            }
+            
 
         }
 

@@ -14,8 +14,8 @@ namespace USSD.Entities
 
     public class Provinces
     {
+        
         public int status { get; set; }
-        public int message { get; set; }
-        public Province data { get; set; }
+        public List<Province> provinces { get; set; }
     }
 }

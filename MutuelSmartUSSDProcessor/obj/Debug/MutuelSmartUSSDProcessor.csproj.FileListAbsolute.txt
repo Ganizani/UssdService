@@ -22,3 +22,8 @@ C:\Development\Projects\Github\USSDService\USSDService\bin\Debug\MutuelSmartUSSD
 C:\Development\Projects\Github\USSDService\MutuelSmartUSSDProcessor\obj\Debug\MutuelSmartUSSDProcessor.csprojResolveAssemblyReference.cache
 C:\Development\Projects\Github\USSDService\MutuelSmartUSSDProcessor\obj\Debug\MutuelSmartUSSDProcessor.dll
 C:\Development\Projects\Github\USSDService\MutuelSmartUSSDProcessor\obj\Debug\MutuelSmartUSSDProcessor.pdb
+C:\Developments\Customers\USSDService\USSDService\bin\Debug\MutuelSmartUSSDProcessor.dll
+C:\Developments\Customers\USSDService\USSDService\bin\Debug\MutuelSmartUSSDProcessor.pdb
+C:\Developments\Customers\USSDService\MutuelSmartUSSDProcessor\obj\Debug\MutuelSmartUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Developments\Customers\USSDService\MutuelSmartUSSDProcessor\obj\Debug\MutuelSmartUSSDProcessor.dll
+C:\Developments\Customers\USSDService\MutuelSmartUSSDProcessor\obj\Debug\MutuelSmartUSSDProcessor.pdb

@@ -28,3 +28,9 @@ C:\Development\Backups\Source code\USSDService - Copy\USSDService\bin\Debug\Subs
 C:\Development\Backups\Source code\USSDService - Copy\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.csprojResolveAssemblyReference.cache
 C:\Development\Backups\Source code\USSDService - Copy\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.dll
 C:\Development\Backups\Source code\USSDService - Copy\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.pdb
+C:\Developments\Customers\USSDService\USSDService\bin\Debug\SubscriptionUSSDProcessor.dll.config
+C:\Developments\Customers\USSDService\USSDService\bin\Debug\SubscriptionUSSDProcessor.dll
+C:\Developments\Customers\USSDService\USSDService\bin\Debug\SubscriptionUSSDProcessor.pdb
+C:\Developments\Customers\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.csprojResolveAssemblyReference.cache
+C:\Developments\Customers\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.dll
+C:\Developments\Customers\USSDService\SubscriptionsUSSDProcessor\SubscriptionUSSDProcessor\obj\Debug\SubscriptionUSSDProcessor.pdb

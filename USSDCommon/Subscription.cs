@@ -21,20 +21,20 @@ namespace exactmobile.ussdcommon
             Monthly = 3
         }
 
-        public string Subscribe(string mobileNumber, int subscriptionServiceId, int? mutuelleId)
+        public Tuple<string, int> Subscribe(string mobileNumber, int subscriptionServiceId, int? mutuelleId)
         {
             bool requestSumbitted;
             return Subscribe(mobileNumber, subscriptionServiceId, true, out requestSumbitted, mutuelleId);
         }
 
-        public string Subscribe(string mobileNumber, int subscriptionServiceId, bool checkAlreadySubscribed, out bool requestSubmitted, int? mutuelleId)
+        public Tuple<string,int> Subscribe(string mobileNumber, int subscriptionServiceId, bool checkAlreadySubscribed, out bool requestSubmitted, int? mutuelleId)
         {
             string data = null;
             requestSubmitted = false;
             if (checkAlreadySubscribed)
             {
                 if (IsSubscribedToService(mobileNumber, subscriptionServiceId))
-                    return "Dear user, you are already subscribed to this service.";
+                    return new Tuple<string, int>( "Dear user, you are already subscribed to this service.",-1);
             }
 
             if (String.IsNullOrEmpty(data))
@@ -71,8 +71,23 @@ namespace exactmobile.ussdcommon
                             var result = client.PostAsync(URL, content).Result;
                             if (result.StatusCode == HttpStatusCode.OK)
                             {
-                               
-                                return "subscribed successfully";
+                                var tempResult = result.Content.ReadAsStringAsync().Result;
+                                try
+                                {
+                                    var entity = JsonConvert.DeserializeObject<USSD.Entities.SubscriptionResult>(tempResult);
+                                    //update oneview complaint status
+                                    if (entity != null && entity.status != 3)
+                                    {
+                                        return new Tuple<string, int>(entity.message, entity.createdSubscriptionId);
+
+
+                                    }
+                                }
+                                catch
+                                {
+
+                                }
+
                             }
 
                         }
@@ -90,8 +105,8 @@ namespace exactmobile.ussdcommon
                 }
                 else if (originalSubscription!= null)
                 {
-                    UpdateSubscription(originalSubscription, 1);
-                    return "Re-Subscribed successfully";
+                    UpdateSubscription(originalSubscription, subscriptionServiceId);
+                    return  new Tuple<string, int>("Re-Subscribed successfully",originalSubscription.subscription_id);
                 }
                 else
                 {
@@ -99,7 +114,7 @@ namespace exactmobile.ussdcommon
                 }
             }
 
-            return data;
+            return new Tuple<string, int>( data,-1);
         }
 
         public bool IsSubscribedToService(string mobileNumber, int subscriptionServiceId)

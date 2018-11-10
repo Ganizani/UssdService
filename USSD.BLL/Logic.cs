@@ -236,7 +236,30 @@ namespace USSD.BLL
                 }
             }
         }
-        
+        private GenericTypeLogicLayer<Address> _Addresses = null;
+        private readonly object _AddressesLock = new object();
+        public GenericTypeLogicLayer<Address> Addresses
+        {
+            get
+            {
+                lock (_AddressesLock)
+                {
+                    if (_Addresses == null)
+                    {
+                        _Addresses = new GenericTypeLogicLayer<Address>(Shared.da);
+                    }
+                }
+                return _Addresses;
+            }
+            set
+            {
+                lock (_MenuTransactionsLock)
+                {
+                    _Addresses = value;
+                }
+            }
+        }
+
 
         #endregion
     }

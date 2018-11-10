@@ -19,3 +19,8 @@ C:\Development\Projects\Github\USSDService\USSDEntities\bin\Debug\USSD.Entities.
 C:\Development\Projects\Github\USSDService\USSDEntities\obj\Debug\USSD.Entities.csprojResolveAssemblyReference.cache
 C:\Development\Projects\Github\USSDService\USSDEntities\obj\Debug\USSD.Entities.dll
 C:\Development\Projects\Github\USSDService\USSDEntities\obj\Debug\USSD.Entities.pdb
+C:\Developments\Customers\USSDService\USSDEntities\bin\Debug\USSD.Entities.dll
+C:\Developments\Customers\USSDService\USSDEntities\bin\Debug\USSD.Entities.pdb
+C:\Developments\Customers\USSDService\USSDEntities\obj\Debug\USSD.Entities.csprojResolveAssemblyReference.cache
+C:\Developments\Customers\USSDService\USSDEntities\obj\Debug\USSD.Entities.dll
+C:\Developments\Customers\USSDService\USSDEntities\obj\Debug\USSD.Entities.pdb

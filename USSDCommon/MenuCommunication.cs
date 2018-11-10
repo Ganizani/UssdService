@@ -10,6 +10,7 @@ using System.IO;
 using System.Xml;
 using USSD.Entities;
 using System.Net.Http;
+using USSD.BLL;
 
 namespace exactmobile.ussdcommon
 {
@@ -237,6 +238,8 @@ namespace exactmobile.ussdcommon
             //            hasAdded = ((transactionID = Convert.ToInt32(reader["transactionID"])) > 0);
             //    }
             //}
+             Logic.Instance.HTTPTransactions.Insert(model);
+            transactionID = model.Id;
             return transactionID >0 ? true :false;
         }
 

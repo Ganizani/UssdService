@@ -18,3 +18,14 @@ C:\Development\Backups\Source code\USSDService - Copy\USSDService\bin\Release\Do
 C:\Development\Backups\Source code\USSDService - Copy\DoubleOptSubscriptionUSSD\obj\Release\DoubleOptSubscriptionUSSD.csprojResolveAssemblyReference.cache
 C:\Development\Backups\Source code\USSDService - Copy\DoubleOptSubscriptionUSSD\obj\Release\DoubleOptSubscriptionUSSD.dll
 C:\Development\Backups\Source code\USSDService - Copy\DoubleOptSubscriptionUSSD\obj\Release\DoubleOptSubscriptionUSSD.pdb
+C:\Development\Projects\Github\USSDService\USSDService\bin\Release\DoubleOptSubscriptionUSSD.dll
+C:\Development\Projects\Github\USSDService\USSDService\bin\Release\DoubleOptSubscriptionUSSD.pdb
+C:\Development\Projects\Github\USSDService\DoubleOptSubscriptionUSSD\obj\Release\DoubleOptSubscriptionUSSD.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Github\USSDService\DoubleOptSubscriptionUSSD\obj\Release\DoubleOptSubscriptionUSSD.dll
+C:\Development\Projects\Github\USSDService\DoubleOptSubscriptionUSSD\obj\Release\DoubleOptSubscriptionUSSD.pdb
+C:\Developments\Customers\USSDService\USSDService\bin\Release\DoubleOptSubscriptionUSSD.dll
+C:\Developments\Customers\USSDService\USSDService\bin\Release\DoubleOptSubscriptionUSSD.pdb
+C:\Developments\Customers\USSDService\DoubleOptSubscriptionUSSD\obj\Release\DoubleOptSubscriptionUSSD.csprojResolveAssemblyReference.cache
+C:\Developments\Customers\USSDService\DoubleOptSubscriptionUSSD\obj\Release\DoubleOptSubscriptionUSSD.csproj.CoreCompileInputs.cache
+C:\Developments\Customers\USSDService\DoubleOptSubscriptionUSSD\obj\Release\DoubleOptSubscriptionUSSD.dll
+C:\Developments\Customers\USSDService\DoubleOptSubscriptionUSSD\obj\Release\DoubleOptSubscriptionUSSD.pdb

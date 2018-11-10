@@ -15,3 +15,25 @@ C:\Development\Backups\Source code\USSDService - Copy\USSDEntities\bin\Release\U
 C:\Development\Backups\Source code\USSDService - Copy\USSDEntities\obj\Release\USSD.Entities.csprojResolveAssemblyReference.cache
 C:\Development\Backups\Source code\USSDService - Copy\USSDEntities\obj\Release\USSD.Entities.dll
 C:\Development\Backups\Source code\USSDService - Copy\USSDEntities\obj\Release\USSD.Entities.pdb
+C:\Development\Projects\Github\USSDService\USSDEntities\bin\Release\USSD.Entities.dll
+C:\Development\Projects\Github\USSDService\USSDEntities\bin\Release\USSD.Entities.pdb
+C:\Development\Projects\Github\USSDService\USSDEntities\obj\Release\USSD.Entities.csprojResolveAssemblyReference.cache
+C:\Development\Projects\Github\USSDService\USSDEntities\obj\Release\USSD.Entities.dll
+C:\Development\Projects\Github\USSDService\USSDEntities\obj\Release\USSD.Entities.pdb
+C:\Developments\Customers\USSDService\USSDEntities\bin\Release\USSD.Entities.dll
+C:\Developments\Customers\USSDService\USSDEntities\bin\Release\USSD.Entities.pdb
+C:\Developments\Customers\USSDService\USSDEntities\bin\Release\System.Web.Razor.dll
+C:\Developments\Customers\USSDService\USSDEntities\bin\Release\System.Web.WebPages.Razor.dll
+C:\Developments\Customers\USSDService\USSDEntities\bin\Release\System.Web.WebPages.dll
+C:\Developments\Customers\USSDService\USSDEntities\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Developments\Customers\USSDService\USSDEntities\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Developments\Customers\USSDService\USSDEntities\bin\Release\System.Web.Mvc.xml
+C:\Developments\Customers\USSDService\USSDEntities\bin\Release\System.Web.Razor.xml
+C:\Developments\Customers\USSDService\USSDEntities\bin\Release\System.Web.WebPages.Razor.xml
+C:\Developments\Customers\USSDService\USSDEntities\bin\Release\System.Web.WebPages.xml
+C:\Developments\Customers\USSDService\USSDEntities\bin\Release\Microsoft.Web.Infrastructure.xml
+C:\Developments\Customers\USSDService\USSDEntities\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Developments\Customers\USSDService\USSDEntities\obj\Release\USSD.Entities.csprojResolveAssemblyReference.cache
+C:\Developments\Customers\USSDService\USSDEntities\obj\Release\USSD.Entities.csproj.CoreCompileInputs.cache
+C:\Developments\Customers\USSDService\USSDEntities\obj\Release\USSD.Entities.dll
+C:\Developments\Customers\USSDService\USSDEntities\obj\Release\USSD.Entities.pdb

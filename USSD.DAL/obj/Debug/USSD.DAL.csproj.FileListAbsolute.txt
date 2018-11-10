@@ -30,3 +30,10 @@ C:\Development\Projects\Github\USSDService\USSD.DAL\bin\Debug\NLog.xml
 C:\Development\Projects\Github\USSDService\USSD.DAL\obj\Debug\USSD.DAL.csprojResolveAssemblyReference.cache
 C:\Development\Projects\Github\USSDService\USSD.DAL\obj\Debug\USSD.DAL.dll
 C:\Development\Projects\Github\USSDService\USSD.DAL\obj\Debug\USSD.DAL.pdb
+C:\Developments\Customers\USSDService\USSD.DAL\bin\Debug\USSD.DAL.dll
+C:\Developments\Customers\USSDService\USSD.DAL\bin\Debug\USSD.DAL.pdb
+C:\Developments\Customers\USSDService\USSD.DAL\bin\Debug\NLog.dll
+C:\Developments\Customers\USSDService\USSD.DAL\bin\Debug\NLog.xml
+C:\Developments\Customers\USSDService\USSD.DAL\obj\Debug\USSD.DAL.csprojResolveAssemblyReference.cache
+C:\Developments\Customers\USSDService\USSD.DAL\obj\Debug\USSD.DAL.dll
+C:\Developments\Customers\USSDService\USSD.DAL\obj\Debug\USSD.DAL.pdb

@@ -44,3 +44,15 @@ C:\Development\Projects\Github\USSDService\USSD.BLL\bin\Debug\NLog.xml
 C:\Development\Projects\Github\USSDService\USSD.BLL\obj\Debug\USSD.BLL.csprojResolveAssemblyReference.cache
 C:\Development\Projects\Github\USSDService\USSD.BLL\obj\Debug\USSD.BLL.dll
 C:\Development\Projects\Github\USSDService\USSD.BLL\obj\Debug\USSD.BLL.pdb
+C:\Developments\Customers\USSDService\USSD.BLL\bin\Debug\USSD.BLL.dll
+C:\Developments\Customers\USSDService\USSD.BLL\bin\Debug\USSD.BLL.pdb
+C:\Developments\Customers\USSDService\USSD.BLL\bin\Debug\NLog.dll
+C:\Developments\Customers\USSDService\USSD.BLL\bin\Debug\USSD.DAL.dll
+C:\Developments\Customers\USSDService\USSD.BLL\bin\Debug\USSD.Entities.dll
+C:\Developments\Customers\USSDService\USSD.BLL\bin\Debug\USSD.DAL.pdb
+C:\Developments\Customers\USSDService\USSD.BLL\bin\Debug\USSD.Entities.pdb
+C:\Developments\Customers\USSDService\USSD.BLL\bin\Debug\NLog.xml
+C:\Developments\Customers\USSDService\USSD.BLL\obj\Debug\USSD.BLL.csprojResolveAssemblyReference.cache
+C:\Developments\Customers\USSDService\USSD.BLL\obj\Debug\USSD.BLL.dll
+C:\Developments\Customers\USSDService\USSD.BLL\obj\Debug\USSD.BLL.pdb
+C:\Developments\Customers\USSDService\USSD.BLL\bin\Debug\MBDInternal.Utils.dll

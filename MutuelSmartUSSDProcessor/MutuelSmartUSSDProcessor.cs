@@ -13,15 +13,19 @@ using USSD.Entities;
 using System.Net;
 using System.Net.Http;
 using Newtonsoft.Json;
+using USSD.BLL;
+using exactmobile.ussdcommon.utility;
 
 namespace exactmobile.ussdservice.processors
 {
     public class MutuelSmartUSSDProcessor : BaseUSSDProcessor, IUSSDProcessor
     {
-        private const string YES_TO_SUBSCRIBE = "notify# Thank you for subscribing to mutuelle smart, you will receive an SMS short with more info.";
-        private const string NO_TO_SUBSCRIBE = "notify# You are currently not subscribed to mutuelle smart!";
+        private const string YES_TO_SUBSCRIBE = "notify# Merci pour votre abonnement a nos services. Vous recevrez un SMS dans quelques instants";
+        private const string NO_TO_SUBSCRIBE = "notify# vous n'etes pas abonne a la mutuelle smart!";
         private const string CONFIRMATION_SUCCESS = "notify# Bravo! ";
+        private string NOT_ACTIVATED = $"Vous ne vous etes pas encore presente au centre d'identification:##Address## pour activer votre compte ";
         private const string CONFIRMATION_ERROR = "notify# Oops le code est invalide!";
+        private int SubscriptionServiceId = Convert.ToInt32(System.Configuration.ConfigurationManager.AppSettings["MutuelSmartSubscriptionId"]);
         private exactmobile.ussdcommon.Subscription subscription = null;
         #region Enums
         public enum CampaignMenu : int
@@ -45,10 +49,10 @@ namespace exactmobile.ussdservice.processors
         public enum StatusEnum : int
         {
             New = 1,
-            Active =2,
+            Active = 2,
             Expired = 3,
             Inactive = 4,
-            Cancelled =5
+            Cancelled = 5
         }
         #endregion
         public MutuelSmartUSSDProcessor(USSDSession session, IUSSDHandler handler) : base(session, handler) { }
@@ -59,17 +63,19 @@ namespace exactmobile.ussdservice.processors
             MenuItem currentMenu = new MenuItem();
             var menu = GetMenuScreen(CampaignMenu.MutualSmart);
             subscription = new exactmobile.ussdcommon.Subscription();
-            if (subscription.IsSubscribedToService(Session.MSISDN, 1))
+            if (subscription.IsSubscribedToService(Session.MSISDN, SubscriptionServiceId))
             {
-                var model = subscription.GetSubscription(Session.MSISDN, 1);
+                var model = subscription.GetSubscription(Session.MSISDN, SubscriptionServiceId);
                 if (model != null && model.status_id == 1)
                 {
-                    return string.Format("request# Bienvenue a la Mutuelle Smart!\n\n1)Confirmer \n2)Verifiez votre Balalance\n3)Se desabonner\n4)Info");
+                    var mutuel = TestData.ListOfMutuels().mutuels.Where(n => n.mutuel_id == model.mutuel_id).FirstOrDefault();
+                    var address = Logic.Instance.Addresses.Fetch(new Address { Id = mutuel.address_id ?? -1 });
+                    return string.Format("request# Bienvenue a la Mutuelle Smart!\n\n" + NOT_ACTIVATED.Replace("##Address##", $"{address?.StreetAndNumber} {address?.Suburb} {address?.Province}"));
                 }
 
                 else
                 {
-                    return string.Format("request# Bienvenue a la Mutuelle Smart!\n\n1)Services\n2)Verifiez votre Balalance\n3)Se desabonner\n4)Info");
+                    return string.Format("request# Bienvenue a la Mutuelle Smart!\n\n1)Services\n2)Payment\n3)Se desabonner\n4)Info");
                 }
 
             }
@@ -84,7 +90,8 @@ namespace exactmobile.ussdservice.processors
 
             //if (Helper.Message.Equals("0"))
             //    return GetHomeScreen();
-            try {
+            try
+            {
                 if (string.IsNullOrEmpty(Helper.Message))
 
                 {
@@ -92,9 +99,16 @@ namespace exactmobile.ussdservice.processors
                     return string.Format("notify# votre choix n'est pas correcte! ");
 
                 }
-                if (subscription.IsSubscribedToService(Session.MSISDN, 1))
+                if (Helper.Message == "00")
+
                 {
-                    var model = subscription.GetSubscription(Session.MSISDN, 1);
+
+                    return GetHomeScreen();
+
+                }
+                if (subscription.IsSubscribedToService(Session.MSISDN, SubscriptionServiceId))//Already  Subscribed to this service
+                {
+                    var model = subscription.GetSubscription(Session.MSISDN, SubscriptionServiceId);
                     if (model != null && model.status_id == 1 && Helper.Message == "1" && Session.LastMenuAccessed.MenuId == 1)
                     {
 
@@ -103,7 +117,7 @@ namespace exactmobile.ussdservice.processors
 
                         {
 
-                            return string.Format("request# Confirmation Menu\n\nVeillez typer le numero de reference");
+                            return string.Format("request# Confirmation Menu\n\nVeillez taper le numero de reference");
 
                         }
                         else
@@ -122,7 +136,7 @@ namespace exactmobile.ussdservice.processors
 
                     else if (model.status_id != 3 && Helper.Message != "3" && Session.LastMenuAccessed.MenuId == 1)
                     {
-                        return string.Format("request# Bienvenu a la Mutuelle Smart!\n\n1)Services\n2)Balalance\n3)Se desabonner\n4)Guide");
+                        return string.Format("request# Bienvenu a la Mutuelle Smart!\n\n1)Services\n2)Payment\n3)Se desabonner\n4)Guide");
                     }
                     else
                     {
@@ -140,7 +154,11 @@ namespace exactmobile.ussdservice.processors
                         if (Helper.Message == "2" && Session.LastMenuAccessed.MenuId == (int)CampaignMenu.CancelSubscribeMenu)
 
                         {
-                            return string.Format("request# Bienvenu a la Mutuelle Smart!\n\n1)Services\n2)Balalance\n3)Se desabonner\n4)Guide");
+                            return GetHomeScreen();
+                        }
+                        else
+                        {
+                            return GetHomeScreen();
                         }
                     }
 
@@ -151,7 +169,7 @@ namespace exactmobile.ussdservice.processors
                 string BackButton = currentMenu_Back.Name;
                 string data = null;
                 string selection = Helper.Message;
-
+                #region choix Province
                 if (Helper.Message == "1" && Session.LastMenuAccessed.MenuId == 1 || ((Helper.Message == "10" || Helper.Message == "0") && Session.LastMenuAccessed.MenuId == (int)CampaignMenu.ProvinceSelection)
                     )
                 {
@@ -175,6 +193,8 @@ namespace exactmobile.ussdservice.processors
                     return "request# " + data;
 
                 }
+                #endregion
+                #region choix cite
                 else if (((Helper.Message == "10" || Helper.Message == "0") && Session.LastMenuAccessed.MenuId == (int)CampaignMenu.CitySelection) || (Session.LastMenuAccessed.MenuId == (int)CampaignMenu.ProvinceSelection))
                 {
                     MenuItem currentMenu = new MenuItem();
@@ -202,12 +222,19 @@ namespace exactmobile.ussdservice.processors
                     data = results;
                     if (data.Length < 180)
                     {
-                        data += GetMenuSubScreen(CampaignMenu.CitySelection, data.Length, selection);
+                        List<City> cityMenuItems = TestData.ListOfCities().cities.Where(n => n.province_id == Convert.ToInt32(Session["SelectedProvince"])).ToList();
+                        if (cityMenuItems.Count > 0)
+                            data += GetMenuSubScreen(CampaignMenu.CitySelection, data.Length, selection);
+
+                        else
+                            data = ShowPreviousMenu(CampaignMenu.CitySelection, data.Length, selection);
 
                     }
                     return "request# " + data;
 
                 }
+                #endregion
+                #region choix commune
                 else if (((Helper.Message == "10" || Helper.Message == "0") && Session.LastMenuAccessed.MenuId == (int)CampaignMenu.CommuneSelection) || (Session.LastMenuAccessed.MenuId == (int)CampaignMenu.CitySelection))
                 {
                     MenuItem currentMenu = new MenuItem();
@@ -235,12 +262,21 @@ namespace exactmobile.ussdservice.processors
                     data = results;
                     if (data.Length < 180)
                     {
-                        data += GetMenuSubScreen(CampaignMenu.CommuneSelection, data.Length, selection);
+                        List<Commune> communeMenuItems = TestData.ListOfCommunes().communes.Where(n => n.city_id == Convert.ToInt32(Session["SelectedCity"])).ToList();
+
+                        if (communeMenuItems.Count > 0)
+
+                            data += GetMenuSubScreen(CampaignMenu.CommuneSelection, data.Length, selection);
+
+                        else
+                            data = ShowPreviousMenu(CampaignMenu.CommuneSelection, data.Length, selection);
 
                     }
                     return "request# " + data;
 
                 }
+                #endregion
+                #region choix mutuelle
                 else if (((Helper.Message == "10" || Helper.Message == "0") && Session.LastMenuAccessed.MenuId == (int)CampaignMenu.MutuelSelection) || (Session.LastMenuAccessed.MenuId == (int)CampaignMenu.CommuneSelection))
                 {
                     MenuItem currentMenu = new MenuItem();
@@ -268,13 +304,20 @@ namespace exactmobile.ussdservice.processors
                         results = GetMenuScreen(CampaignMenu.MutuelSelection);
                     data = results;
                     if (data.Length < 180)
-                    {
-                        data += GetMenuSubScreen(CampaignMenu.MutuelSelection, data.Length, selection);
+                    { 
+                        List < Mutuel > mutuelMenuItems = TestData.ListOfMutuels().mutuels.Where(n => n.commune_id == Convert.ToInt32(Session["SelectedCommune"])).ToList();
+                        if (mutuelMenuItems.Count > 0)
+                            data += GetMenuSubScreen(CampaignMenu.MutuelSelection, data.Length, selection);
+                        else
+                            data = ShowPreviousMenu(CampaignMenu.MutuelSelection, data.Length, selection);
 
                     }
                     return "request# " + data;
 
                 }
+                #endregion
+                #region confirmation
+
                 else if (Session.LastMenuAccessed.MenuId == (int)CampaignMenu.MutuelSelection)
 
                 {
@@ -299,13 +342,29 @@ namespace exactmobile.ussdservice.processors
                 {
                     if (Convert.ToInt32(Helper.Message) == 1)
                     {
+                        //Active 1 NOT_ACtive = 2 NOT_Activated =3 Terminated =4
                         //subcribe user to mutuelle smart
+                        int? mutuelId = Session["SelectedMutuelle"] != null ? TestData.ListOfMutuels().mutuels.Where(n => n.mutuel_id == Convert.ToInt32(Session["SelectedMutuelle"])).FirstOrDefault()?.address_id : null;
                         var sub = new ussdcommon.Subscription();
-                        data = sub.Subscribe(Session.MSISDN, 1, int.Parse(Session["SelectedMutuelle"].ToString()));
+                        var result = sub.Subscribe(Session.MSISDN, 1, int.Parse(Session["SelectedMutuelle"].ToString()));
+                        data = result.Item1;
+                        var mutuel = TestData.ListOfMutuels().mutuels.Where(n => n.mutuel_id == mutuelId).FirstOrDefault();
+                        var address = Logic.Instance.Addresses.Fetch(new Address { Id = mutuel.address_id ?? -1 });
 
-                        ussdcommon.utility.CommonUtility.SendSMSNotification(Session.MSISDN, "Details of the mutuel will shortly be sent to you");
+                        if (address != null)
+                            ussdcommon.utility.CommonUtility.SendSMSNotification(Session.MSISDN, $"Veillez visiter ce centre de capture pour finaliser l'abonnement: {address?.StreetAndNumber} {address?.Suburb} {address?.Province}");
+                        ussdcommon.utility.CommonUtility.SendSubscriptionRequestToAlain(new SubscriptionRequest
+                        {
+                            subscriptionid = result.Item2,
+                            idcenter = address != null ? mutuelId.ToString() : "null",
+                            idsender = "ussd",
+                            mut = SubscriptionServiceId,
+                            phonnum = Session.MSISDN.Substring(Session.MSISDN.Length - 9, 8),
+                            status = 3
+
+                        });
                         //return data;// -- YES_TO_SUBSCRIBE;
-                        return "notify# " + data;
+                        return "notify# " + YES_TO_SUBSCRIBE;
                     }
                     else
                     {
@@ -315,8 +374,10 @@ namespace exactmobile.ussdservice.processors
 
                 }
 
-                
-            }catch{
+                #endregion
+            }
+            catch
+            {
                 GetHomeScreen();
             }
             return GetHomeScreen();
@@ -328,7 +389,7 @@ namespace exactmobile.ussdservice.processors
             var client = ussdcommon.utility.CommonUtility.GetHttpConnection("MutuelleSmartAPI");
             var json = JsonConvert.SerializeObject(model);
             var content = new StringContent(json.ToString(), Encoding.UTF8, "application/json");
-            var URL = new Uri(client.BaseAddress, "subscriptions" );
+            var URL = new Uri(client.BaseAddress, "subscriptions");
 
             using (client)
             {
@@ -338,7 +399,7 @@ namespace exactmobile.ussdservice.processors
                     if (result.StatusCode == HttpStatusCode.OK)
                     {
 
-                       // log.info( "subscribed successfully");
+                        // log.info( "subscribed successfully");
                     }
 
                 }
@@ -355,13 +416,14 @@ namespace exactmobile.ussdservice.processors
             try
             {
                 string returnValue = string.Empty;
-                string backValue = "\n0)back\n10)more";
+                string backValue = "\n0)Retour\n10)Pg suivante\n00.Accueil";
                 //tricky stuff. you need to build a string less the length so that it will fit on the returned string and keep track of where you
                 // at the the collection for navigation.
                 switch (modelSelection)
                 {
                     case CampaignMenu.ProvinceSelection:
                         #region Province
+                        Session["MenuSection"] = 1;
                         DisplayListOfProvinces();
                         Dictionary<int, string> provinceMenuItems = Session["ProvinceMenuItems"] as Dictionary<int, string>;
                         int index = Session["CurrentProvinceSelection"] != null ? (int)Session["CurrentProvinceSelection"] : 0;
@@ -374,7 +436,7 @@ namespace exactmobile.ussdservice.processors
                             {
                                 if (index == 0)
                                 {
-                                    backValue = "\n10)more";
+                                    backValue = "\n10)Pg suivante\n00.Accueil";
                                 }
                                 if (displayIndex == 10)
                                 {
@@ -389,7 +451,7 @@ namespace exactmobile.ussdservice.processors
                                 Session["CurrentProvinceSelection"] = index;
                                 if (index >= provinceMenuItems.Count)
                                 {
-                                    backValue = "\n0)back";
+                                    backValue = "\n0)Retour\n00.Acceuil";
                                 }
                             }
                         }
@@ -402,7 +464,7 @@ namespace exactmobile.ussdservice.processors
                             {
                                 if (index >= provinceMenuItems.Count)
                                 {
-                                    backValue = "\n0)back";
+                                    backValue = "\n0)Retour\n00.Accueil";
                                 }
 
                                 returnValue += $"\n{displayIndex  }){provinceMenuItems[index]}";
@@ -420,7 +482,7 @@ namespace exactmobile.ussdservice.processors
 
                                 if (index == 1)
                                 {
-                                    backValue = "\n10)more";
+                                    backValue = "\n10)Pg suivante\n00.Acceuil";
                                 }
                             }
                         }
@@ -429,7 +491,7 @@ namespace exactmobile.ussdservice.processors
                     case CampaignMenu.CitySelection:
                         #region Cities
                         List<City> cityMenuItems = TestData.ListOfCities().cities.Where(n => n.province_id == Convert.ToInt32(Session["SelectedProvince"])).ToList();
-
+                        Session["MenuSection"] = 2;
                         // Dictionary<int, string> cityMenuItems = Session["CityMenuItems"] as Dictionary<int, string>;
                         index = Session["CurrentCitySelection"] != null ? (int)Session["CurrentCitySelection"] : 0;
                         displayIndex = index >= 10 ? index + 2 : index + 1;
@@ -443,7 +505,7 @@ namespace exactmobile.ussdservice.processors
                             {
                                 if (index == 0)
                                 {
-                                    backValue = "\n10)more";
+                                    backValue = "\n10)Pg Suivante\n00.Acceuil";
                                 }
                                 if (displayIndex == 10)
                                 {
@@ -458,7 +520,7 @@ namespace exactmobile.ussdservice.processors
                                 Session["CurrentCitySelection"] = index;
                                 if (index >= cityMenuItems.Count)
                                 {
-                                    backValue = "\n0)back";
+                                    backValue = "\n0)Retour\n00.Acceuil";
                                 }
                             }
                         }
@@ -467,11 +529,19 @@ namespace exactmobile.ussdservice.processors
                             index = Convert.ToInt32(Session["PreviousCitySelection"]);
                             displayIndex = index >= 10 ? index + 1 : index;
                             Session["CurrenCitySelection"] = index;
+                            if (index == 0)
+                            {
+                                Session["CurrentProvinceSelection"] = 0;
+
+                                //returnValue = GetMenuScreen(CampaignMenu.ProvinceSelection);
+                                //returnValue += GetMenuSubScreen(CampaignMenu.ProvinceSelection, length, selection);
+                                GoToMainMenu();
+                            }
                             while (index > 0 && (index <= cityMenuItems.Count) && (length + cityMenuItems[index].city_name.Length + backValue.Length) < 180)
                             {
                                 if (index >= cityMenuItems.Count)
                                 {
-                                    backValue = "\n0)back";
+                                    backValue = "\n0)Retour\n00.Accueil";
                                 }
 
                                 returnValue += $"\n{displayIndex  }){cityMenuItems[index].city_name}";
@@ -489,7 +559,7 @@ namespace exactmobile.ussdservice.processors
 
                                 if (index == 1)
                                 {
-                                    backValue = "\n10)more";
+                                    backValue = "\n10)Pg Suivante\n00.Accueil";
                                 }
                             }
                         }
@@ -497,7 +567,7 @@ namespace exactmobile.ussdservice.processors
                     #endregion
                     case CampaignMenu.CommuneSelection:
                         #region Commune
-
+                        Session["MenuSection"] = 3;
                         List<Commune> communeMenuItems = TestData.ListOfCommunes().communes.Where(n => n.city_id == Convert.ToInt32(Session["SelectedCity"])).ToList();
 
                         //Dictionary<int, string> territoryMenuItems = Session["TerritoryMenuItems"] as Dictionary<int, string>;
@@ -514,7 +584,7 @@ namespace exactmobile.ussdservice.processors
                             {
                                 if (index == 0)
                                 {
-                                    backValue = "\n10)more";
+                                    backValue = "\n10)Pg Suivante\n00.Accueil";
                                 }
                                 if (displayIndex == 10)
                                 {
@@ -529,7 +599,7 @@ namespace exactmobile.ussdservice.processors
                                 Session["CurrentTerritorySelection"] = index;
                                 if (index >= communeMenuItems.Count)
                                 {
-                                    backValue = "\n0)back";
+                                    backValue = "\n0)Retour\n00.Accueil";
                                 }
                             }
                         }
@@ -538,11 +608,18 @@ namespace exactmobile.ussdservice.processors
                             index = Convert.ToInt32(Session["PreviousTerritorySelection"]);
                             displayIndex = index >= 10 ? index + 1 : index;
                             Session["CurrentTerritorySelection"] = index;
+                            if (index == 0)
+                            {
+                                Session["CurrenCitySelection"] = 0;
+
+                                Session.LastMenuAccessed.MenuId = (int)CampaignMenu.CitySelection;
+                                return GetMenuSubScreen(CampaignMenu.CitySelection, length, selection);
+                            }
                             while (index > 0 && (index <= communeMenuItems.Count) && (length + communeMenuItems[index].commune_name.Length + backValue.Length) < 180)
                             {
                                 if (index >= communeMenuItems.Count)
                                 {
-                                    backValue = "\n0)back";
+                                    backValue = "\n0)Retour\n00.Accueil";
                                 }
 
                                 returnValue += $"\n{displayIndex  }){communeMenuItems[index].commune_name}";
@@ -560,7 +637,7 @@ namespace exactmobile.ussdservice.processors
 
                                 if (index == 1)
                                 {
-                                    backValue = "\n10)more";
+                                    backValue = "\n10)Pg Suivante\n00.Accueil";
                                 }
                             }
                         }
@@ -570,7 +647,7 @@ namespace exactmobile.ussdservice.processors
                         #region Mutuel
 
                         List<Mutuel> mutuelMenuItems = TestData.ListOfMutuels().mutuels.Where(n => n.commune_id == Convert.ToInt32(Session["SelectedCommune"])).ToList();
-
+                        Session["MenuSection"] = 4;
                         //Dictionary<int, string> territoryMenuItems = Session["TerritoryMenuItems"] as Dictionary<int, string>;
                         index = Session["CurrentMutuelSelection"] != null ? (int)Session["CurrentMutuelSelection"] : 0;
                         displayIndex = index >= 10 ? index + 2 : index + 1;
@@ -578,6 +655,12 @@ namespace exactmobile.ussdservice.processors
                         {
                             if (selection == "0" && mutuelMenuItems.Count == 0)
                                 return GetHomeScreen();
+                            else
+                            {
+                                if (selection != "0" && mutuelMenuItems.Count == 0)
+                                   return ShowPreviousMenu(modelSelection, length, selection);
+                            }
+
 
                             Session["PreviousMutuelSelection"] = index;
 
@@ -585,7 +668,7 @@ namespace exactmobile.ussdservice.processors
                             {
                                 if (index == 0)
                                 {
-                                    backValue = "\n10)more";
+                                    backValue = "\n10)Pg Suivante\n00.Accueil";
                                 }
                                 if (displayIndex == 10)
                                 {
@@ -600,7 +683,7 @@ namespace exactmobile.ussdservice.processors
                                 Session["CurrentMutuelSelection"] = index;
                                 if (index >= mutuelMenuItems.Count)
                                 {
-                                    backValue = "\n0)back";
+                                    backValue = "\n0)Retour\n00.Accueil";
                                 }
                             }
                         }
@@ -613,7 +696,7 @@ namespace exactmobile.ussdservice.processors
                             {
                                 if (index >= mutuelMenuItems.Count)
                                 {
-                                    backValue = "\n0)back";
+                                    backValue = "\n0)Retour\n00.Accueil";
                                 }
 
                                 returnValue += $"\n{displayIndex  }){mutuelMenuItems[index].mutuel_name} - ${mutuelMenuItems[index].price}";
@@ -631,7 +714,7 @@ namespace exactmobile.ussdservice.processors
 
                                 if (index == 1)
                                 {
-                                    backValue = "\n10)more";
+                                    backValue = "\n10)Pg Suivante\n00.Accueil";
                                 }
                             }
                         }
@@ -640,9 +723,9 @@ namespace exactmobile.ussdservice.processors
                 }
                 return string.Format("{0}", returnValue + backValue);
             }
-            catch
+            catch (Exception exp)
             {
-                return "notfify# pas d'info\n\n#.pour return au menu principal";
+                return "notfify# Pas d'info\n\n00.Accueil";
             }
         }
 
@@ -665,18 +748,21 @@ namespace exactmobile.ussdservice.processors
                 var model = subscription.GetSubscription(Session.MSISDN, 1);
                 if (model != null && model.status_id == 1)
                 {
-                    return string.Format("request# Bienvenue a la Mutuelle Smart!\n\n1)Confirmer \n2)Verifiez votre Balalance\n3)Se desabonner\n4)Info");
+                    var mutuel = TestData.ListOfMutuels().mutuels.Where(n => n.mutuel_id == model.mutuel_id).FirstOrDefault();
+                    var address = Logic.Instance.Addresses.Fetch(new Address { Id = mutuel.address_id ?? -1 });
+                    return string.Format("request# Bienvenue a la Mutuelle Smart!\n\n" + NOT_ACTIVATED.Replace("##Address##", $"{address?.StreetAndNumber} {address?.Suburb} {address?.Province}"));
+                    //return string.Format($"request# {NOT_ACTIVATED} \n\n3)Se desabonner\n4)Info");
                 }
 
                 else
                 {
-                    return string.Format("request# Bienvenue a la Mutuelle Smart!\n\n1)Services\n2)Verifiez votre Balalance\n3)Se desabonner\n4)Info");
+                    return string.Format("request# Bienvenue a la Mutuelle Smart!\n\n1)Services\n2)Verifiez votre solde\n3)Se desabonner\n4)Info");
                 }
 
             }
             else
             {
-                return string.Format("request# Bienvenue a la Mutuelle Smart!\n\n1)souscrire\n2)Verifiez votre Balalance\n3)Se desabonner\n4)Info");
+                return string.Format("request# Bienvenue a la Mutuelle Smart!\n\n1)souscrire\n2)Verifiez votre solde\n3)Se desabonner\n4)Info");
             }
         }
         public string GetMenuScreen(CampaignMenu campaignMenu)
@@ -702,34 +788,63 @@ namespace exactmobile.ussdservice.processors
             {
                 provinceMenuItems = new Dictionary<int, string>();
 
-                provinceMenuItems.Add(1, "Bas - Uele");
-                provinceMenuItems.Add(2, "Equateur");
-                provinceMenuItems.Add(3, "Haut - Katanga");
-                provinceMenuItems.Add(4, "Haut - Lomami");
-                provinceMenuItems.Add(5, "Haut - Uele");
-                provinceMenuItems.Add(6, "Ituri");
-                provinceMenuItems.Add(7, "Kasai");
-                provinceMenuItems.Add(8, "Kasai - Central");
-                provinceMenuItems.Add(9, "Kasai - Oriental");
-                provinceMenuItems.Add(10, "Kinshasa");
-                provinceMenuItems.Add(11, "Kongo - Central");
-                provinceMenuItems.Add(12, "Kwango");
-                provinceMenuItems.Add(13, "Kwilu");
-                provinceMenuItems.Add(14, "Lomami");
-                provinceMenuItems.Add(15, "Lualaba");
-                provinceMenuItems.Add(16, "Mai - Ndombe");
-                provinceMenuItems.Add(17, "Maniema");
-                provinceMenuItems.Add(18, "Mongala");
-                provinceMenuItems.Add(19, "Nord - Kivu");
-                provinceMenuItems.Add(20, "Nord - Ubangi");
-                provinceMenuItems.Add(21, "Sankuru");
-                provinceMenuItems.Add(22, "Sud - Kivu");
-                provinceMenuItems.Add(23, "Sud - Ubangi");
-                provinceMenuItems.Add(24, "Tanganyika");
-                provinceMenuItems.Add(25, "Tshopo");
-                provinceMenuItems.Add(26, "Tshuapa");
+                try
+                {
+
+                    using (var client = CommonUtility.GetHttpConnection("MutuelleSmartAPI"))
+                    {
 
 
+                        var URL = new Uri(client.BaseAddress, "provinces");
+                        var response = client.GetAsync(URL.ToString()).Result;
+
+
+                        if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                        {
+                            var result = response.Content.ReadAsStringAsync().Result;
+                            try
+                            {
+                                JsonConvert.DeserializeObject<USSD.Entities.Provinces>(result).provinces.ForEach(n => provinceMenuItems.Add(n.province_id, n.province_name));
+
+                                //update oneview complaint status
+                            }
+                            catch
+                            {
+
+                            }
+                        }
+                    }
+                }
+                catch
+                {
+                    //provinceMenuItems.Add(1, "Bas - Uele");
+                    provinceMenuItems.Add(1, "Equateur");
+                    provinceMenuItems.Add(2, "Haut - Katanga");
+                    //provinceMenuItems.Add(4, "Haut - Lomami");
+                    //provinceMenuItems.Add(5, "Haut - Uele");
+                    //provinceMenuItems.Add(6, "Ituri");
+                    //provinceMenuItems.Add(7, "Kasai");
+                    provinceMenuItems.Add(3, "Kasai - Central");
+                    provinceMenuItems.Add(4, "Kasai - Oriental");
+                    provinceMenuItems.Add(5, "Kinshasa");
+                    provinceMenuItems.Add(6, "Kongo - Central");
+                    //provinceMenuItems.Add(12, "Kwango");
+                    //provinceMenuItems.Add(13, "Kwilu");
+                    //provinceMenuItems.Add(14, "Lomami");
+                    //provinceMenuItems.Add(15, "Lualaba");
+                    //provinceMenuItems.Add(16, "Mai - Ndombe");
+                    //provinceMenuItems.Add(17, "Maniema");
+                    //provinceMenuItems.Add(18, "Mongala");
+                    provinceMenuItems.Add(7, "Nord - Kivu");
+                    //provinceMenuItems.Add(20, "Nord - Ubangi");
+                    //provinceMenuItems.Add(21, "Sankuru");
+                    provinceMenuItems.Add(8, "Sud - Kivu");
+                    //provinceMenuItems.Add(23, "Sud - Ubangi");
+                    //provinceMenuItems.Add(24, "Tanganyika");
+                    //provinceMenuItems.Add(25, "Tshopo");
+                    //provinceMenuItems.Add(26, "Tshuapa");
+
+                }
 
                 Session["ProvinceMenuItems"] = provinceMenuItems;
             }
@@ -746,6 +861,45 @@ namespace exactmobile.ussdservice.processors
             return data;
         }
 
-        
+        private string ShowPreviousMenu(CampaignMenu modelSelection, int length, string selection)
+        {
+            string results = string.Empty;
+            string message = "Aucune Mutuelle presente\n\n";
+            switch (modelSelection)
+            {
+                case CampaignMenu.MutuelSelection:
+
+                    modelSelection = CampaignMenu.CommuneSelection;
+                    Session["SelectedCommune"] = null;
+                    Session["CurrentTerritorySelection"] = null;
+                    break;
+                case CampaignMenu.CommuneSelection:
+
+                    modelSelection = CampaignMenu.CitySelection;
+                    Session["SelectedCity"] = null;
+                    Session["CurrentCitySelection"] = null;
+
+                    break;
+                case CampaignMenu.CitySelection:
+
+                    modelSelection = CampaignMenu.ProvinceSelection;
+                    Session["SelectedProvince"] = null;
+                    Session["CurrentProvinceSelection"] = null;
+
+                    break;
+            }
+
+
+            MenuItem currentMenu = new MenuItem();
+            results = Menu.ShowMenu((int)modelSelection, (int)modelSelection, ref currentMenu, false);
+            Session.LastMenuAccessed = currentMenu;
+
+
+            results += message + GetMenuSubScreen(modelSelection, length, selection);
+
+            return results;
+        }
+
+
     }
 }
